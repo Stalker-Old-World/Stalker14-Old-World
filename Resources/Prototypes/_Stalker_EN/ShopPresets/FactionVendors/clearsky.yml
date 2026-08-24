@@ -129,7 +129,7 @@
     STJunkTracker: 1000
 
   categories:
-  - name: shop-category-weapons
+  - name: shop-category-weapons # OW Shop Change Start
     priority: 1
     items:
       # Melee
@@ -147,24 +147,21 @@
       # Shotguns
       STWeaponShotgunMP155T: 45 #T0.5
       STWeaponShotgunTOZ34: 225 # T2
-      STWeaponShotgunMP133: 385 # T1.5
       STWeaponShotgunMossbergM88: 630 # T2
       STWeaponShotgunSPAS: 1300 # T3
       # SMGs
       STWeaponSMGUMP: 1800
-      STWeaponSMGPP19: 2000
       STWeaponSMGMP5: 2000
       # Rifles
-      STWeaponRifleL85Forecaster: 2100
-      STWeaponRifleFAL: 1500
-      STWeaponRifleM4: 3000
-      STWeaponRifleM14: 3750
-      STWeaponRifleAKS74: 2800
-      STWeaponRifleAKM: 3500
-      STWeaponRifleStalkerAK105SwampThing: 4000
-      STMetroWeaponRifleVSV: 5000
+      STWeaponRifleL85Forecaster: 4000
+      STWeaponRifleFAL: 5000
+      STWeaponRifleM4: 5000
+      STWeaponRifleM14: 5500
+      STWeaponRifleAKS74: 6000
+      STWeaponRifleStalkerAK105SwampThing: 8000
+      STMetroWeaponRifleVSV: 9000
       # Snipers
-      STWeaponSniperVepr: 4000
+      STWeaponSniperVepr: 14000
       # Crossbow
       STweaponCrossbow: 3000 # enjoy teddy
 
@@ -297,9 +294,9 @@
     items:
       # Helmets #
       ClothingHeadHelmetSH68ClearSky: 300 # T1 - PVP
-      STOWClothingHeadHelmetT2PVPStalker: 875 # T2 - PVP
-      STOWClothingHeadHelmetT3PVPAltMaskClearSky: 3250 # T3 - PVP - Changed to New ID
-      STOWClothingHeadHelmetT3PVEClearSky: 3000 # T3 - PVE
+      STOWClothingHeadHelmetT2PVPStalker: 1500 # T2 - PVP
+      STOWClothingHeadHelmetT3PVPAltMaskClearSky: 5000 # T3 - PVP - Changed to New ID
+      STOWClothingHeadHelmetT3PVEClearSky: 3250 # T3 - PVE
 
       # OuterClothing #
       ClothingOuterJacketCN: 60 # T1 - PVE
@@ -311,13 +308,13 @@
       ClothingOuterArmorCN1: 2100 # T2 - universal\
       # ST:OW - Begin
       #STClothingOuterArmorLightPlateVestBaseANABlue: 9500 # T3 - PVP
-      STOWClothingOuterArmorT3VestClearSky: 12000 # T3 - PvP // 30% off price
+      STOWClothingOuterArmorT3VestClearSky: 15000 # T3 - PvP // 30% off price
       # ST:OW - End
-      ClothingOuterArmorCN3a: 12000 # T3 - PVE
-      ClothingOuterArmorSevaCN: 3600 # T3 - ENVl
-      STClothingOuterArmorCN-4a: 3600 # Illusion of choice
-      STClothingOuterArmorCN-4aResearcher: 4000 # Slightly better SEVA
-      ClothingOuterArmorSevaClearSky: 15000 # T3 - ENV/PVP
+      ClothingOuterArmorCN3a: 15000 # T3 - PVE
+      ClothingOuterArmorSevaCN: 6000 # T3 - ENVl
+      STClothingOuterArmorCN-4a: 8000 # Illusion of choice
+      STClothingOuterArmorCN-4aResearcher: 8000 # Slightly better SEVA
+      ClothingOuterArmorSevaClearSky: 20000 # T3 - ENV/PVP
 
   - name: shop-category-storage-and-containers
     priority: 7
@@ -326,10 +323,10 @@
       ClothingBackpackDuffelGreenStalker: 30 # T1
       ClothingBackpackTacticGreenStalker: 450 # T2
       ClothingBackpackMercStalker: 550 # T3
-      ClothingBackpackDuffelCommonStalker: 750 # T3
-      ClothingBackpackDuffelClearSky: 750 # T3
-      ClothingBackpackDuffelHikingVSRF: 1150 # T4
-      ClothingBackpackDuffelMilitaryOlive: 1300 # T4
+      ClothingBackpackDuffelCommonStalker: 1000 # T3
+      ClothingBackpackDuffelClearSky: 1000 # T3
+      ClothingBackpackDuffelHikingVSRF: 8000 # T4
+      ClothingBackpackDuffelMilitaryOlive: 8000 # T4
       # Belts
       ClothingBeltBandolierStalker: 20 # T1 - PVE
       STClothingBeltThrowingKnifes: 350
@@ -381,11 +378,11 @@
       ZoneArtifactDetectorPulse: 50 # T1
       ZoneArtifactDetectorHunter: 100 # T2
       ZoneArtifactDetectorResponse: 600 # T2
-      ZoneArtifactDetectorSpruce: 2000 # T2
-      ZoneArtifactDetectorBarracuda: 2750 # T3
-      ZoneArtifactDetectorSeaDevil: 10000 # T4
-      ElectronicDetectorT1: 1000 # EN
-      ElectronicDetectorT2: 8000 # EN
+      ZoneArtifactDetectorSpruce: 3000 # T2
+      ZoneArtifactDetectorBarracuda: 15000 # T3
+      ZoneArtifactDetectorSeaDevil: 30000 # T4
+      ElectronicDetectorT1: 2000 # EN
+      ElectronicDetectorT2: 15000 # OW Shop Change End
 
   - name: shop-category-utilities
     priority: 10
