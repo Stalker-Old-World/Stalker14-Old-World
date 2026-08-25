@@ -9,22 +9,14 @@
     sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi
   - type: Fixtures
     fixtures:
-      fix1:
-        shape: !type:PhysShapeCircle
-          radius: 0.2
-        density: 5
-        mask:
-        - ItemMask
-        restitution: 0.3
-        friction: 0.2
       projectile:
         shape:
           !type:PhysShapeAabb
-          bounds: "-0.1,-0.3,0.1,-0.1"
+          bounds: "-0.08,-0.42,0.08,0.10" # ST:OW
         hard: false
         mask:
-        - Impassable
-        - BulletImpassable
+          - Impassable # ST:OW
+          - BulletImpassable # ST:OW
   - type: EmbeddableProjectile
     sound: /Audio/Weapons/star_hit.ogg
     embedOnThrow: false

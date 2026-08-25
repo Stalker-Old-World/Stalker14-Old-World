@@ -9,31 +9,33 @@
       types:
         Radiation: 0
 
-- type: entity
-  parent: STClothingOuterArmorBase
-  id: STClothingOuterArmorLepestokNeutralEN  #THIS IS A BADGER USING THE SPRITE OF THE BERYL PETAL
-  name: Badger "Petal"
-  description: Modified by the Neutral craftsman "Titmouse". With improved fabric.
-  components:
-  - type: Sprite
-    sprite: _Stalker/Objects/Clothing/outerClothing/lepestok_neutral.rsi
-  - type: Clothing
-    sprite: _Stalker/Objects/Clothing/outerClothing/lepestok_neutral.rsi
-  - type: Storage
-    maxItemSize: Large
-    grid:
-      - 0,3,0,4
-      - 2,3,2,4
-      - 4,3,4,4
-      - 6,0,8,1
-      - 6,3,6,4
-      - 8,3,8,4
-      - 10,3,10,4
+# ST:OW begin
+#- type: entity
+#  parent: STClothingOuterArmorBase
+#  id: STClothingOuterArmorNeutralBadger  #THIS IS A BADGER USING THE SPRITE OF THE BERYL PETAL
+#  name: Badger "Petal"
+#  description: Modified by the Neutral craftsman "Titmouse". With improved fabric.
+#  components:
+#  - type: Sprite
+#    sprite: _Stalker/Objects/Clothing/outerClothing/lepestok_neutral.rsi
+#  - type: Clothing
+#    sprite: _Stalker/Objects/Clothing/outerClothing/lepestok_neutral.rsi
+#  - type: Storage
+#    maxItemSize: Large
+#    grid:
+#      - 0,3,0,4
+#      - 2,3,2,4
+#      - 4,3,4,4
+#      - 6,0,8,1
+#      - 6,3,6,4
+#      - 8,3,8,4
+#      - 10,3,10,4
 
 - type: entity
   parent: STClothingOuterArmorBase
   id: STClothingOuterArmorNeutralBadger
-  name: Badger Armored Coveralls
+  name: Neutral Badger
+  description: A hefty armored suit that has been refitted to have muted earthy tones. Originally manufactured by Podval Bara LLC.
   components:
   - type: Sprite
     sprite: _Stalker_EN/Objects/Clothing/outerClothing/neutral_badger.rsi
@@ -49,7 +51,8 @@
       - 6,3,6,4
       - 8,3,8,4
       - 10,3,10,4
-    
+# ST:OW end
+
 - type: entity
   parent: STClothingOuterArmorBase
   id: STClothingOuterArmorMilitaryBadger

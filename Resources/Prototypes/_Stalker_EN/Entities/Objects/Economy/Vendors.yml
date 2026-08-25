@@ -105,7 +105,9 @@
       entries:
         DrinkMREFlask: 50
         FoodTinMRE: 50
+        Binocularus1: 50
         Zipties: 50
+        STFlashlightSeclite: 50
         PowerCellHyper: 50
         STBoltBagFilled: 50
         BaseRadio: 50
@@ -115,7 +117,7 @@
 
     - category: clothing
       entries:
-        ClothingMaskGP7: 30
+        ClothingMaskGasM40Military: 30
         ClothingHeadHatMilitary: 30
         ClothingBandageStalkerKrest: 30
         ClothingHeadHatBeretBrigmedic: 30
