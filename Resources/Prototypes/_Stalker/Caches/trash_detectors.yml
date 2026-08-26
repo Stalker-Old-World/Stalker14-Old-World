@@ -11,7 +11,7 @@
     - type: RandomSpawner
       prototypes:
       # ST:OW begin
-      # Tier 1
+      # T1
       - STCraftSheetCopperT1
       - STCraftPlasticFittingT1
       - STCraftPinePlankT1
@@ -20,7 +20,7 @@
       - STCraftBasicThreadKitT1
       - STCraftBasicPCBT1
     
-      # Tier 2
+      # T2
       - STCraftSheetIronT2
       - STCraftPlasticFittingT2
       - STCraftBirchPlankT2
@@ -42,11 +42,19 @@
       - STJewelryGold
       - STJewelrySilver
       - STWristwatchGold
+      - TreasureCoinIron
+      - TreasureCoinSilver
+      - TreasureCoinGold
+      - Wristwatch
+      - STGoldRingBigDiamond
+      - IngotSilver1
+      - IngotGold1
+      - MaterialDiamond1
       
       # Currency 
-      - Roubles500
+      - Roubles100
 
-      # Rare (T3 items)
+      # T3
       rarePrototypes:
       - STCraftSheetBrassT3
       - STCraftPlasticFittingT3
@@ -59,7 +67,6 @@
       # Weapons
       - STWeaponShotgunMossbergM88
       - WeaponPistolStalkerAPS
-      - RGD5Grenade
       - KhattabkaGrenade
       - STWeaponRifleAKS74U
       - STWeaponRifleSaiga545
@@ -78,23 +85,17 @@
       rareChance: 0.05 # 5%
 
       epicPrototypes:
-      - STCraftSheetAluminumT4
       - STCraftPlasticFittingT4
       - STCraftYewPlankT4
-      - STCraftSapphireCrystalT4
       - STCraftPolymerFabricT4
       - STCraftIndustrialThreadStaplesKitT4
-      - STCraftHighPerformanceChipT4
-      epicChance: 0.006 # 0.6%
+      epicChance: 0.005 # 0.5%
 
       legendaryPrototypes:
-      - STCraftSheetSteelT5
       - STCraftPlasticFittingT5
       - STCraftRedWoodPlankT5
-      - STCraftAluminumOxideT5
       - STCraftCompositeMaterialT5
       - STCraftHighStrengthKitT5
-      - STCraftNanoChipT5
       legendaryChance: 0.0015 # 0.15% (about 1 in 667 successful spawns)
       # ST:OW end
 
@@ -108,7 +109,6 @@
   name: metal detector "Prostofil"
   description: Made of junk and sticks, but if you rummage through large piles of garbage, you might find something.
   suffix: Stalker, metal detector
-  # ST:OW end
   components:
     - type: STWeight
       self: 6
@@ -120,8 +120,9 @@
       sprite: _Stalker/Objects/Tools/Trash_detectors/T1_trash_detector.rsi
       state: icon
     - type: TrashDetector
-      searchTime: 25
-      probability: 0.50
+      searchTime: 30
+      probability: 0.30
+      # ST:OW end
 
 - type: entity
   parent: BaseItem
@@ -133,10 +134,9 @@
   name: metal detector "Digger"
   description: A good, well-made metal detector. If you rummage through large piles of garbage, you might find something.
   suffix: Stalker, metal detector
-  # ST:OW end
   components:
     - type: STWeight
-      self: 4.5
+      self: 5
     - type: Item
       size: Large
       shape:
@@ -145,8 +145,9 @@
       sprite: _Stalker/Objects/Tools/Trash_detectors/T2_trash_detector.rsi
       state: icon
     - type: TrashDetector
-      searchTime: 15
-      probability: 0.75
+      searchTime: 20
+      probability: 0.60
+      # ST:OW end
 
 - type: entity
   parent: BaseItem
@@ -158,10 +159,9 @@
   name: metal detector "Shakhter"
   description: An expensive imported metal detector, straight from Germany. If you rummage through large piles of garbage, you will most likely find something.
   suffix: Stalker, metal detector
-  # ST:OW end
   components:
     - type: STWeight
-      self: 3.5
+      self: 4
     - type: Item
       size: Large
       shape:
@@ -170,8 +170,9 @@
       sprite: _Stalker/Objects/Tools/Trash_detectors/T3_trash_detector.rsi
       state: icon
     - type: TrashDetector
-      searchTime: 10
-      probability: 0.85
+      searchTime: 15
+      probability: 0.80
+      # ST:OW end
 
 - type: entity
   parent: BaseItem
@@ -181,12 +182,11 @@
   #description: Очень Дорогой, металлоискатель модиффицированный с помощью частей гравитационных артефактов. Если порыться им в больших кучах мусора, то с большой вероятностью вы что-то найдете.
   #suffix: Stalker, металлоискатель
   name: metal detector "Nakhodka"
-  description: A very expensive metal detector modified with gravity artifact parts. If you rummage through large piles of garbage, you have a very high chance to find something.
+  description: A very expensive metal detector modified with gravity artifact parts. If you rummage through large piles of garbage, you will definitely find some amazing items.
   suffix: Stalker, metal detector
-  # ST:OW end
   components:
     - type: STWeight
-      self: 0.5
+      self: 3
     - type: Item
       size: Large
       shape:
@@ -195,11 +195,12 @@
       sprite: _Stalker/Objects/Tools/Trash_detectors/T4_trash_detector.rsi
       state: icon
     - type: TrashDetector
-      searchTime: 5
+      searchTime: 10
       probability: 1
       rollsMin: 1
       rollsMax: 3
       rollsHardCap: 3
+      # ST:OW end
 
 - type: entity
   parent: BaseItem
@@ -211,10 +212,9 @@
   name: metal detector "Anomalist"
   description: An extremely expensive metal detector and an improved version of "Nakhodka". It has exceptional properties for finding crafting components. If you rummage through large piles of garbage, you will definitely find something.
   suffix: Stalker, metal detector
-  # ST:OW end
   components:
     - type: STWeight
-      self: -2
+      self: 2
     - type: Item
       size: Large
       shape:
@@ -228,3 +228,4 @@
       rollsMin: 1
       rollsMax: 6
       rollsHardCap: 6
+      # ST:OW end
