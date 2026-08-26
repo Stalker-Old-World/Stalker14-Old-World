@@ -302,7 +302,6 @@
         ZoneArtifactDetectorSpruce: 2200 # T2
         ZoneArtifactDetectorBarracuda: 3500 # T3
         Veles: 4500 # T3
-        ElectronicDetectorT1: 2000 # ST:OW
         #ZoneArtifactDetectorBear: 16000 #T4 I'm good with adding this
 
         # RP Items / Anomaly Destructors
