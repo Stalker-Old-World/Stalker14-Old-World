@@ -11,5 +11,16 @@ namespace Content.Server.ElectronicsTool.Components
 
         [DataField]
         public string Loot = "RandomElectronicsToolSpawner";
+        
+        // ST:OW begin - multi-roll electronics salvage
+        [DataField]
+        public int RollsMin = 1;
+
+        [DataField]
+        public int RollsMax = 1;
+
+        [DataField]
+        public int RollsHardCap = 6;
+        // ST:OW end
     }
 }

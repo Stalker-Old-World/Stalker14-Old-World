@@ -16,8 +16,13 @@
     sprite: _Stalker_EN/Objects/Tools/cstool1.rsi
     state: icon
   - type: ElectronicsTool
-    searchTime: 15 # faster but worse
-    probability: 0.2
+    searchTime: 15 # ST:OW
+    probability: 0.30 # ST:OW
+    # ST:OW begin
+    rollsMin: 1
+    rollsMax: 2
+    rollsHardCap: 2
+    # ST:OW end
   - type: RepositoryItem
     categoryName: repository-tools-category
 
@@ -39,8 +44,13 @@
     state: icon
     scale: 0.7, 0.7
   - type: ElectronicsTool
-    searchTime: 20 # whats the upper limit of how long a cs agent is willing to stand around and look at a doafter
-    probability: 0.8
+    searchTime: 25 # ST:OW
+    probability: 0.80
+    # ST:OW begin
+    rollsMin: 1
+    rollsMax: 3
+    rollsHardCap: 3
+    # ST:OW end
   - type: RepositoryItem
     categoryName: repository-tools-category
 
@@ -55,38 +65,49 @@
     state: icon
   - type: RandomSpawner
     prototypes:
-    - STJunkHardDriveBroken
-    - STJunkHardDriveBroken
-    - STJunkHardDriveBroken
-    - STJunkHardDriveBroken
-    - STJunkHardDriveBroken
-    # mats
-    - STCraftBasicPCBT1
-    - STCraftBasicPCBT1
-    - STCraftStandardPCBT2
-    - STCraftGlassT1
-    - STCraftGlassT2
-    - STCraftSheetCopperT1
-    - STCraftSheetIronT2
-    - STCraftSheetBrassT3
-    - STCraftBattery
-    - STCraftBattery
-    - STCraftCoil
-    - STCraftCapacitor
-    - STCraftCapacitor
-    - STCraftTransformer
-    - STDrinkBeerCanBaltic # spilled beer on tha computer
+    # ST:OW begin
+      # Common salvage
+      - STJunkHardDriveBroken
+      
+      # T1
+      - STCraftBasicPCBT1
+      - STCraftGlassT1
+      - STCraftSheetCopperT1
+      
+      # T2
+      - STCraftSheetIronT2
+      - STCraftGlassT2
+      - STCraftStandardPCBT2
+      
+      # Electronics
+      - STCraftBattery
+      - STCraftCoil
+      - STCraftCapacitor
+      - STCraftTransformer
+      
     rarePrototypes:
-    - STJunkHardDrive
-    - STJunkHardDrive
-    - STJunkHardDrive
-    - STJunkHardDrive
-    # mats
-    # kill the t4s maybe idk
-    - STCraftMultilayerPCBT3
-    - STCraftMultilayerPCBT3
-    - STCraftHighPerformanceChipT4
-    - STCraftSheetAluminumT4
-    rareChance: 0.08 # slightly higher than trash rarechance
+      - STJunkHardDrive
+      
+      # T3
+      - STCraftQuartzCrystalT3
+      - STCraftSheetBrassT3
+      - STCraftMultilayerPCBT3
+    rareChance: 0.08 # 8%
+
+    epicPrototypes:
+      # T4
+      - STCraftHighPerformanceChipT4
+      - STCraftSheetAluminumT4
+      - STCraftSapphireCrystalT4
+    epicChance: 0.005 # 0.5%
+    
+    legendaryPrototypes:
+      # T5
+      - STCraftNanoChipT5
+      - STCraftSheetSteelT5
+      - STCraftAluminumOxideT5
+
+    legendaryChance: 0.0015 # 0.15% (about 1 in 667 successful spawns)
+    # ST:OW end
     chance: 1
     offset: 0.5

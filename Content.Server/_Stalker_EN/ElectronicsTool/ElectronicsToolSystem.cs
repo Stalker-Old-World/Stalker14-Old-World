@@ -58,7 +58,7 @@ namespace Content.Server._Stalker_EN.ElectronicsTool
                 }
                 else
                 {
-                    _popupSystem.PopupEntity("This was searched recently", user, PopupType.LargeCaution);
+                    _popupSystem.PopupEntity("This was searched recently.", user, PopupType.LargeCaution);
                 }
             }
 
@@ -70,21 +70,32 @@ namespace Content.Server._Stalker_EN.ElectronicsTool
             if (args.Handled || args.Cancelled || args.Args.Target == null || !TryComp<ElectronicsSearchableComponent>(args.Args.Target.Value, out var trash))
                 return;
             var target = args.Args.Target.Value;
+            // ST:OW begin
+            trash.TimeBeforeNextSearch = 900f;
 
-            if (_random.Prob(comp.Probability))
+            if (!_random.Prob(comp.Probability))
             {
-                trash.TimeBeforeNextSearch = 900f;
-                _popupSystem.PopupEntity("Something was found", uid, PopupType.LargeCaution);
-                var xform = Transform(uid);
-                var coords = xform.Coordinates;
+                _popupSystem.PopupEntity("Nothing of value.", uid, PopupType.LargeCaution);
+                args.Handled = true;
+                return;
+            }
+
+            _popupSystem.PopupEntity("Something was found!", uid, PopupType.LargeCaution);
+
+            var xform = Transform(uid);
+            var coords = xform.Coordinates;
+
+            var hardCap = Math.Max(1, comp.RollsHardCap);
+            var minRolls = Math.Clamp(comp.RollsMin, 1, hardCap);
+            var maxRolls = Math.Clamp(comp.RollsMax, minRolls, hardCap);
+
+            var rolls = _random.Next(minRolls, maxRolls + 1);
+
+            for (var i = 0; i < rolls; i++)
+            {
                 Spawn(comp.Loot, coords);
             }
-            else
-            {
-                trash.TimeBeforeNextSearch = 900f;
-                _popupSystem.PopupEntity("Nothing of value", uid, PopupType.LargeCaution);
-            }
-
+            // ST:OW end
             args.Handled = true;
         }
 
