@@ -232,10 +232,10 @@
         #STPsyHelm1: 7500
           # OuterClothing #
         ClothingOuterJacketSCI: 60 # T1 - PVE
-        ClothingOuterArmorSSP99Amber: 12000
-        ClothingOuterArmorSSP99: 12000
+        ClothingOuterArmorSSP99Amber: 20000
+        ClothingOuterArmorSSP99: 14000
         ClothingOuterArmorSSP24Topaz: 8000
-        ClothingOuterArmorSSP99White: 12000
+        ClothingOuterArmorSSP99White: 14000
         ClothingOuterArmorSSP24Ruby: 8000
         ClothingOuterArmorSSP24Sapfire: 8000
         STClothingOuterArmorSSP99Project: 8000
