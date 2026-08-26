@@ -45,14 +45,14 @@
 
 
 - type: entity
-  name: кувалда
+  name: sledgehammer # ST:ow
   parent: BaseItem
   id: SledgehammerRenegats
-  suffix: ST, ренегаты
-  description: Bonk!
+  suffix: ST, Renegades # ST:OW
+  description: Destruction. # ST:OW
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/sledgehammer.rsi
+    sprite: _Stalker_OW/Objects/Weapons/Melee/sledgehammer.rsi # ST:OW
     state: icon
   - type: StaminaDamageOnHit
     damage: 35
@@ -72,6 +72,13 @@
         Structural: 10
   - type: Item
     size: Large
+    # ST:OW begin
+  - type: Clothing
+    sprite: _Stalker_OW/Objects/Weapons/Melee/sledgehammer.rsi
+    quickEquip: false
+    slots:
+    - back
+    # ST:OW end
   - type: PullDoAfter
     pullTime: 1
   - type: Engraveable # en
