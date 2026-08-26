@@ -1,0 +1,17 @@
+﻿{
+  "version": 1,
+  "license": "CC-BY-NC-SA-3.0",
+  "copyright": "Made by kuro964",
+  "size": {
+    "x": 48,
+    "y": 48
+  },
+  "states": [
+    {
+      "name": "broken-bolt"
+    },
+    {
+      "name": "ap-broken-bolt"
+    }
+  ]
+}

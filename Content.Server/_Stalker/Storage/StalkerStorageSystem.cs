@@ -458,38 +458,40 @@ public sealed class StalkerStorageSystem : SharedStalkerStorageSystem
 
         return prototype;
     }
-
+    // ST:OW begin
     public void SpawnedItem(EntityUid inputItemUid, IItemStalkerStorage? nextSpawnOptions)
     {
-        if (IsBlackListed(inputItemUid) == false && !HasComp<SolutionContainerManagerComponent>(inputItemUid))
+        if (!IsBlackListed(inputItemUid) && !HasComp<SolutionContainerManagerComponent>(inputItemUid))
         {
             DeleteChildren(inputItemUid);
             DeleteAmmo(inputItemUid);
         }
 
-        if (TryComp<ItemSlotsComponent>(inputItemUid, out var slots))
+        // Reset item slot ONLY if it's not ammo
+        var isRestoringAmmo = nextSpawnOptions is AmmoContainerStalker or AmmoItemStalker;
+
+        if (!isRestoringAmmo && TryComp<ItemSlotsComponent>(inputItemUid, out var slots))
         {
-            foreach (var slot in slots.Slots)
+            foreach (var slot in slots.Slots.Values)
             {
-                QueueDel(slot.Value.Item);
-                if (slot.Value.Item == null)
+                if (slot.Item is not { } item)
                     continue;
-                Logger.Debug($"Deleted {Name(slot.Value.Item.Value)}");
+
+                QueueDel(item);
+                Logger.Debug($"Deleted {Name(item)}");
             }
         }
         switch (nextSpawnOptions)
         {
-            case null:
+            case StackItemStalker stackOptions when TryComp<StackComponent>(inputItemUid, out var stackComp):
+                stackComp.Count = (int)stackOptions.StackCount;
+                Dirty(inputItemUid, stackComp);
+                break;
+            
+            default:
                 return;
-            case StackItemStalker sitOptions:
-                {
-                    if (TryComp(inputItemUid, out StackComponent? stackComponent))
-                    {
-                        stackComponent.Count = (int)sitOptions.StackCount;
-                        Dirty(inputItemUid, stackComponent);
-                    }
-                    break;
-                }
+            // ST:OW end
+            
             case BatteryItemStalker options:
                 if (TryComp<BatteryComponent>(inputItemUid, out var batteryComponent))
                 {
@@ -507,34 +509,34 @@ public sealed class StalkerStorageSystem : SharedStalkerStorageSystem
                 }
                 break;
             case SolutionItemStalker options:
+            {
+                if (TryComp<ContainerManagerComponent>(inputItemUid, out var containerMan))
                 {
-                    if (TryComp<ContainerManagerComponent>(inputItemUid, out var containerMan))
+                    foreach (var container in containerMan.Containers)
                     {
-                        foreach (var container in containerMan.Containers)
+                        var split = container.Key.Split("@");
+                        if (split[0] != "solution") // If it is not a solution container we don't need to iterate through it
+                            continue;
+                        foreach (var element in container.Value.ContainedEntities)
                         {
-                            var split = container.Key.Split("@");
-                            if (split[0] != "solution") // If it is not a solution container we don't need to iterate through it
+                            if (!TryComp<SolutionComponent>(element, out var solution))
                                 continue;
-                            foreach (var element in container.Value.ContainedEntities)
+                            solution.Solution.Contents.Clear();
+                            solution.Solution.Volume = FixedPoint2.Zero;
+                            if (!options.Contents.TryGetValue(split[1], out var contents))
+                                continue;
+                            foreach (var quan in contents)
                             {
-                                if (!TryComp<SolutionComponent>(element, out var solution))
+                                if (quan.Quantity <= FixedPoint2.Zero)
                                     continue;
-                                solution.Solution.Contents.Clear();
-                                solution.Solution.Volume = FixedPoint2.Zero;
-                                if (!options.Contents.TryGetValue(split[1], out var contents))
-                                    continue;
-                                foreach (var quan in contents)
-                                {
-                                    if (quan.Quantity <= FixedPoint2.Zero)
-                                        continue;
-                                    solution.Solution.AddReagent(quan);
-                                }
-                                Dirty(element, solution);
+                                solution.Solution.AddReagent(quan);
                             }
+                            Dirty(element, solution);
                         }
                     }
-                    break;
                 }
+                break;
+            }
             case AmmoItemStalker options:
                 {
                     if (TryComp<CartridgeAmmoComponent>(inputItemUid, out var ammoComp))
@@ -631,6 +633,7 @@ public sealed class StalkerStorageSystem : SharedStalkerStorageSystem
         if (!TryComp(inputItemUid, out BallisticAmmoProviderComponent? ammoProvider))
             return;
         ammoProvider.UnspawnedCount = 0;
+        // NOTE: Keep EntProtos untouched here; restore path repopulates it from persisted data.
     }
 
     private void DeleteChildren(EntityUid inputItemUid)

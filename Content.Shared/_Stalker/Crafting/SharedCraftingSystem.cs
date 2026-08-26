@@ -357,11 +357,42 @@ public sealed class SharedCraftingSystem : EntitySystem
         var usedId = GetItemProtoID(used);
         var xform = _transform.GetMapCoordinates(target);
 
-        RemoveIfNeeded(target, targetId, step.FirstIngredient, step.KeepFirst, step.ExactFirst);
-        RemoveIfNeeded(target, targetId, step.SecondIngredient, step.KeepSecond, step.ExactSecond);
-        RemoveIfNeeded(used, usedId, step.FirstIngredient, step.KeepFirst, step.ExactFirst);
-        RemoveIfNeeded(used, usedId, step.SecondIngredient, step.KeepSecond, step.ExactSecond);
+        // ST:OW start
+        var targetIsFirst = IsEqualOrHasParent(targetId, step.FirstIngredient, step.ExactFirst);
+        var targetIsSecond = IsEqualOrHasParent(targetId, step.SecondIngredient, step.ExactSecond);
+        var usedIsFirst = IsEqualOrHasParent(usedId, step.FirstIngredient, step.ExactFirst);
+        var usedIsSecond = IsEqualOrHasParent(usedId, step.SecondIngredient, step.ExactSecond);
+        var forward = targetIsFirst && usedIsSecond;
+        var reverse = usedIsFirst && targetIsSecond;
 
+        if (!forward && !reverse)
+            return;
+
+        if (step.FirstIngredient.Id == step.SecondIngredient.Id)
+        {
+            // Need two distinct entities when recipe is A + A
+            if (target == used)
+                return;
+            
+            // If KeepFirst & KeepSecond are false, then delete both items
+            if (!step.KeepFirst && !step.KeepSecond)
+            {
+                QueueDel(target);
+                QueueDel(used);
+            }
+        }
+        else
+        {
+            var firstEntity = forward ? target : used;
+            var secondEntity = forward ? used : target;
+
+            if (!step.KeepFirst)
+                QueueDel(firstEntity);
+        
+            if (!step.KeepSecond)
+                QueueDel(secondEntity);
+        }
+        // ST:OW end
         foreach (var item in prototype.Results)
         {
             var newEntity = Spawn(item, xform);

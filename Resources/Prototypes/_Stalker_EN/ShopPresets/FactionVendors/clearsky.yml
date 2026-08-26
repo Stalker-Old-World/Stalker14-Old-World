@@ -163,7 +163,7 @@
       # Snipers
       STWeaponSniperVepr: 14000
       # Crossbow
-      STweaponCrossbow: 3000 # enjoy teddy
+      STweaponCrossbow: 1500 # enjoy teddy
 
   - name: shop-category-magazines
     priority: 2
@@ -250,8 +250,8 @@
       MagazineBox357MagnumAP: 2500 # T3
       MagazineBox357MagnumHP: 1500 # Mutant
       # bolts
-      STArrowboltbodkin: 750
-      STArrowboltbroadhead: 500
+      STBodkinBolt: 600
+      STBroadheadBolt: 250
 
   - name: shop-category-medicine
     priority: 4
