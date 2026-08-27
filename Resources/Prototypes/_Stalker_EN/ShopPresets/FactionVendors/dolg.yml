@@ -101,19 +101,19 @@
         919PSOGJBox: 100 # T1
         919PSTBox: 450 # T2
         919PBMBox: 1000 # T3
-        919RIPBox: 500 # Mutant
+        919RIPBox: 300 # Mutant
         # 9.18
         918PGJBox: 100 # T1
         918PSTBox: 450 # T2
         918PBMBox: 1000 # T3
-        918SP7Box: 500 # Mutant
+        918SP7Box: 300 # Mutant
         # 5.45
         545FMJBox: 500 # T2
-        545HPBox: 625 # Mutant
+        545HPBox: 500 # Mutant
         545PCBox: 1150 # T3
         # 7.39
-        739FMJBox: 1350 # T3
-        739HPBox: 750 # Mutant
+        739FMJBox: 1250 # T3
+        739HPBox: 650 # Mutant
 
         # 7.54
         754FMJBox: 2250 # T3
