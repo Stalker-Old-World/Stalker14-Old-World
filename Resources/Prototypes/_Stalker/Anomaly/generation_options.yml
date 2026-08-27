@@ -11,11 +11,11 @@
     - protoId: ZoneAnomalyVortex
       weight: 0.5
 
-# Cordon - Stalker EN - Orginal 100
+# Cordon - Originally 80 on ST14 EN
 - type: stAnomalyGenerationOptions
   id: STKordonGenerationOptions
   options:
-    totalCount: 80
+    totalCount: 300 # ST:OW
     anomalyEntries:
     # Electrical
     - protoId: ZoneAnomalyElectra
