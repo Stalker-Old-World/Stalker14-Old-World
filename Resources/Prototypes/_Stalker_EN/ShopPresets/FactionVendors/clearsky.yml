@@ -379,7 +379,7 @@
       ZoneArtifactDetectorHunter: 100 # T2
       ZoneArtifactDetectorResponse: 600 # T2
       ZoneArtifactDetectorSpruce: 3000 # T2
-      ZoneArtifactDetectorBarracuda: 15000 # T3
+      ZoneArtifactDetectorBarracuda: 6000 # T3
       ZoneArtifactDetectorSeaDevil: 30000 # T4
       ElectronicDetectorT1: 2000 # EN
       ElectronicDetectorT2: 15000 # OW Shop Change End
@@ -439,11 +439,11 @@
       STModuleSilencerSMGT1: 600
       STModuleSniperSightT1: 600
       STModuleSilencerSniperT1: 600
-      STModuleSilencerRiflesT2Ru: 2800
-      STModuleSilencerPistolT2: 2800
-      STModuleSilencerRiflesT2Nato: 2800
-      STModuleSilencerSniperT2: 2800
-      STModuleSilencerSMGT2: 2800
+      STModuleSilencerRiflesT2Ru: 6000
+      STModuleSilencerPistolT2: 6000
+      STModuleSilencerRiflesT2Nato: 6000
+      STModuleSilencerSniperT2: 6000
+      STModuleSilencerSMGT2: 6000
       STModuleGlockSwitch: 200
 
   - name: shop-category-customization
