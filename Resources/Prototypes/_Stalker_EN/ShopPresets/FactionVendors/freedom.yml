@@ -102,10 +102,10 @@
         STWeaponSMGThompson: 4000 # ow
         # Nato Rifles
         STWeaponRifleM16: 2500 # T2
-        STBaseWeaponRifleM4: 6000 # T2
+        STWeaponRifleM4: 6000 # T2
         STWeaponRifleFAL: 1750 # T3
         STWeaponRifleGalil: 7000 # T3
-        STBaseWeaponRifleFALo: 8000 # T3
+        STWeaponRifleFALo: 8000 # T3
         # Snipers
         STWeaponSniperMosin: 1200
 
