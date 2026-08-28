@@ -234,14 +234,14 @@
         # 9.18
         918PGJBox: 85 # T1
         918PSTBox: 175 # T2
-        918SP7Box: 425 # Mutant
+        918SP7Box: 300 # Mutant
         # 9.19
         919PSOGJBox: 85 # T1
         919PSTBox: 175 # T2
-        919RIPBox: 425 # Mutant
+        919RIPBox: 300 # Mutant
         # 7.25
         725PBox: 75 # T1
-        725LRNPCBox: 425 # Mutant
+        725LRNPCBox: 300 # Mutant
         725PTBox: 150 # T2
         # .45
         45ACPLFMJBox: 100 #T1

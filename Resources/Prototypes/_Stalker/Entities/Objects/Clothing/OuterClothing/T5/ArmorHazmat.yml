@@ -24,9 +24,9 @@
           Radiation: 4
           Caustic: 6
         coefficients:
-          Blunt: 0.7
-          Slash: 0.7
-          Piercing: 0.7
+          Blunt: 0.65
+          Slash: 0.65
+          Piercing: 0.85
           Heat: 0.5
           Caustic: 0.5
           Shock: 0.5
@@ -60,11 +60,10 @@
         flatReductions:
           Heat: 4
           Radiation: 3
-          Psy: 1
+          Psy: 2
         coefficients:
           Heat: 0.9
           Radiation: 0.8
-          Psy: 0.9
     - type: HideLayerClothing
       slots:
       - Hair

@@ -96,7 +96,7 @@
         8mmBuckshotBox: 600 # T2
         # 7.25
         725PBox: 90 # T1
-        725LRNPCBox: 500 # Mutant
+        725LRNPCBox: 300 # Mutant
         # 9.19
         919PSOGJBox: 100 # T1
         919PSTBox: 450 # T2

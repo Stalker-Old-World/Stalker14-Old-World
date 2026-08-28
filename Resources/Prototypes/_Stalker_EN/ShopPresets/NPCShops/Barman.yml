@@ -251,8 +251,8 @@
         # 7.25
         725PBox: 100 # T1
         725PTBox: 200 # T2
-        725LRNPCBox: 500 # Mutant
-        725PSTBox: 950 # T3
+        725LRNPCBox: 300 # Mutant
+        725PSTBox: 800 # T3
         # 9.19
         919PSOGJBox: 100 # T1
         919PSTBox: 200 # T2

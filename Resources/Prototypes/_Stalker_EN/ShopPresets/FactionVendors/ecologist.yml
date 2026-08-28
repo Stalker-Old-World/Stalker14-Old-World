@@ -161,9 +161,9 @@
         919PSTBox: 180 # T2
         919RIPBox: 400 # Mutant
         # .45
-        45ACPRIPBox: 450 # Mutant
+        45ACPRIPBox: 500 # Mutant
         45ACPLFMJBox: 90 # T1
-        45ACPMFMJBox: 200 # T2
+        45ACPMFMJBox: 300 # T2
         # 5.45
         545HPBox: 375 # Mutant
         545FMJBox: 270 # T2
