@@ -149,6 +149,23 @@
     - type: Clothing
       sprite: _Stalker_EN/Objects/Clothing/outerClothing/press_vest_armored.rsi
     - type: Craftable
+    # ST:OW begin
+    - type: Armor
+      armorClass: 3
+      modifiers:
+        flatReductions:
+          Blunt: 6
+          Slash: 6
+          Piercing: 8
+        coefficients:
+          Blunt: 0.7
+          Slash: 0.7
+          Piercing: 0.7
+    - type: GrantsArtifactSlots
+      slots: 1
+    - type: ExplosionResistance
+      damageCoefficient: 0.75
+    # ST:OW end
 
 - type: entity
   parent: STOWClothingOuterArmorT3VestBase
@@ -209,4 +226,3 @@
       sprite: _Stalker/Objects/Clothing/outerClothing/ANA/UN.rsi
     - type: Clothing
       sprite: _Stalker/Objects/Clothing/outerClothing/ANA/UN.rsi
-    - type: Craftable

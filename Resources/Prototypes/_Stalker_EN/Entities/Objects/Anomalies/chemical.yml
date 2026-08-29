@@ -2,7 +2,7 @@
   id: ZoneAnomalyBeer
   name: Beer
   parent: [ZoneAnomalyBaseChemical,STBaseToxic]
-  suffix: Stalker, Kissel, Anomaly, Beer
+  suffix: Stalker, Beer, Anomaly # ST:OW
   components:
     - type: PointLight
       radius: 3
