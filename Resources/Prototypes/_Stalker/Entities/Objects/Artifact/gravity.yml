@@ -631,44 +631,77 @@
     - STArtifact
     - STArtifactTier3
 
-# Пораждаемая ZoneAnomalyBeer (_Stalker_EN/.../chemical.yml)
+# Need to move this at some point but for now this works
+# ST:OW begin
 - type: entity
-  parent: BaseArtifact
+  parent: [BaseArtifact, DrinkBase]
   id: ZoneArtifactBeer
-  suffix: ST, Beer
+  name: Beer
+  description: A strange smell emanates from it. How does it taste?
+  suffix: ST, Beer, Artifact
   components:
-  - type: Sprite
-    sprite: _Stalker_EN/Objects/Other/Anomalys/beer.rsi
-    state: idle
-    scale: 0.5, 0.5
-  - type: ZoneArtifact
-    anomaly: ZoneAnomalyBeer
-  - type: ZoneArtifactDetectorTarget
-    detectedLevel: 1
-  - type: PointLight
-    radius: 1.5
-    energy: 4.5
-    color: "#f89b08"
-    castShadows: false
-  - type: PersonalDamage
-    damage:
-      types:
-        Radiation: 0.5
-    interval: 1
-    ignoreResistances: true # EN
-  - type: Armor
-    hiddenExamine: true
-    armorClass: 2
-    modifiers:
-      coefficients:
-        Compression: 1.2
-        Blunt: 0.95
-        Slash: 0.95
-  - type: Tag
-    tags:
-    - Khabar
-    - STArtifact
-    - STArtifactTier1
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          maxVol: 100
+          reagents:
+            - ReagentId: AnomalyBeer
+              Quantity: 100
+
+    - type: Clothing
+      quickEquip: false
+
+    - type: Sprite
+      sprite: _Stalker_EN/Objects/beer.rsi
+      layers:
+        - state: icon
+        - state: icon-1
+          map: ["enum.SolutionContainerLayers.Fill"]
+          visible: false
+      scale: 0.5, 0.5
+
+    - type: PointLight
+      radius: 1.5
+      energy: 4.5
+      color: "#fbf236"
+      castShadows: false
+
+    - type: ZoneArtifact
+      anomaly: ZoneAnomalyBeer
+
+    - type: ZoneArtifactDetectorTarget
+      detectedLevel: 1
+
+    - type: Appearance
+
+    - type: SolutionContainerVisuals
+      maxFillLevels: 5
+      fillBaseName: icon-
+      inHandsMaxFillLevels: 2
+      inHandsFillBaseName: -fill-
+
+    - type: PersonalDamage
+      damage:
+        types:
+          Radiation: 0.5
+      interval: 1
+      ignoreResistances: true
+
+    - type: Armor
+      hiddenExamine: true
+      armorClass: 2
+      modifiers:
+        coefficients:
+          Compression: 1.2
+          Blunt: 0.95
+          Slash: 0.95
+
+    - type: Tag
+      tags:
+        - Khabar
+        - STArtifact
+        - STArtifactTier1
+# ST:OW end
 
 # No anomaly spawner wired up yet for this one, defaulted to tier 1 / ZoneAnomalySpringboard - rebalance as needed
 - type: entity

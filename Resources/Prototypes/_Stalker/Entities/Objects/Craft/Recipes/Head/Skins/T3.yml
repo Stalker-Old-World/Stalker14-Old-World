@@ -3,10 +3,10 @@
 - type: lightCraftingRecipe
   id:  STCraftSkinClothingHeadAssaultHelmetUN
   results:
-    - ClothingHeadAssaultHelmetUN
+    - STOWClothingHeadHelmetT3PVPUN
   steps:
     firstIngredient: STSkinsKitUnitar
-    secondIngredient: ClothingHeadAssaultHelmet
+    secondIngredient: STOWClothingHeadHelmetT3PVPStalker
     keepFirst: true
     time: 5
 

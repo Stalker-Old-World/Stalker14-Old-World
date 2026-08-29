@@ -3,8 +3,10 @@
   id: STCacheStorageFillT4
   abstract: true
   suffix: ST, Cache, T4
-  name: ящик
-  description: Довольно таки старый ящик. Возможно, стоит его обыскать. Может, можно найти что-то полезное в нём.
+  name: old crate # ST:OW
+  description: A crate coated in dust and rust. It might be worth searching; there could still be something useful inside. # ST:OW
+  #  name: ящик
+  #  description: Довольно таки старый ящик. Возможно, стоит его обыскать. Может, можно найти что-то полезное в нём.
   components:
     - type: InteractionOutline
     - type: StorageFill
