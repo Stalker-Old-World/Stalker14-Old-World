@@ -487,9 +487,6 @@ public sealed class StalkerStorageSystem : SharedStalkerStorageSystem
                 stackComp.Count = (int)stackOptions.StackCount;
                 Dirty(inputItemUid, stackComp);
                 break;
-            
-            default:
-                return;
             // ST:OW end
             
             case BatteryItemStalker options:
