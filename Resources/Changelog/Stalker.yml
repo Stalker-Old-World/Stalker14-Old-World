@@ -3595,5 +3595,20 @@
   id: 404
   time: '2026-07-16T05:49:25.446700+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1031
+- author: kuro964
+  changes:
+  - message: T3 UN vest
+    type: Fix
+  - message: UN Zenith helmet
+    type: Fix
+  - message: Beer artifact
+    type: Fix
+  - message: In-game changelog
+    type: Fix
+  - message: Translated a lot of caches
+    type: Tweak
+  id: 405
+  time: '2026-08-29T21:42:11.573882+00:00'
+  url: https://github.com/Stalker-Old-World/Stalker14-Old-World/pull/18
 Name: Stalker
 Order: -1
