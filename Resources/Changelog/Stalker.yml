@@ -3610,5 +3610,14 @@
   id: 405
   time: '2026-08-29T21:42:11.573882+00:00'
   url: https://github.com/Stalker-Old-World/Stalker14-Old-World/pull/18
+- author: kuro964
+  changes:
+  - message: Garlands no longer spawn in Cordon
+    type: Fix
+  - message: Old boars no longer spawn in Cordon
+    type: Fix
+  id: 406
+  time: '2026-08-30T17:06:26.780108+00:00'
+  url: https://github.com/Stalker-Old-World/Stalker14-Old-World/pull/19
 Name: Stalker
 Order: -1
