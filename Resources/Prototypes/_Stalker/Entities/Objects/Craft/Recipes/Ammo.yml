@@ -599,7 +599,6 @@
   resultProtos:
     - 739HPBoxCink
     - 739HPBoxCink
-    - 739HPBoxCink
   craftTime: 30
   requiredWorkbench: StalkerWorktable1
   items:
@@ -607,7 +606,7 @@
       amount: 1
       catalyzer: true
     CraftMaterialGunpowder:
-      amount: 4
+      amount: 3
     STCraftSheetBrassT3:
       amount: 3
 
@@ -646,7 +645,7 @@
     CraftMaterialGunpowder:
       amount: 3
     STCraftSheetBrassT3:
-      amount: 3
+      amount: 5
 
 - type: craftRecipe
   id: newrecipe751UNBoxCink
@@ -660,9 +659,9 @@
       amount: 1
       catalyzer: true
     CraftMaterialGunpowder:
-      amount: 4
+      amount: 3
     STCraftSheetBrassT3:
-      amount: 5
+      amount: 3
 
 - type: craftRecipe
   id: newrecipe751M61BoxCink
