@@ -3619,5 +3619,12 @@
   id: 406
   time: '2026-08-30T17:06:26.780108+00:00'
   url: https://github.com/Stalker-Old-World/Stalker14-Old-World/pull/19
+- author: Kyokonia
+  changes:
+  - message: Changed 7.62x39 and 7.62x51 BP costs
+    type: Tweak
+  id: 407
+  time: '2026-08-30T17:13:10.991068+00:00'
+  url: https://github.com/Stalker-Old-World/Stalker14-Old-World/pull/20
 Name: Stalker
 Order: -1
