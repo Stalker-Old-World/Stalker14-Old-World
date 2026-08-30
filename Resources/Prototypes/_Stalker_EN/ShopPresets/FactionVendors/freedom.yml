@@ -220,6 +220,7 @@
         SetFreedomDefenderBuyableCrate: 12000 # T3
         ClothingOuterArmorAborigineFreedom: 8500 # T3
         ClothingOuterArmorSevaFreedom: 3200 # T3 - ENV
+        ClothingOuterArmorFreedomDefender: 9150 # T3 - Uni #OW
 
     - name: shop-category-storage-and-containers
       priority: 7
