@@ -172,18 +172,18 @@
       8mmBuckshotBox: 450 # T2
       # 7.25
       725PBox: 100 # T1
-      725LRNPCBox: 625 # Mutant
+      725LRNPCBox: 300 # Mutant
       725PTBox: 200 # T2
       725PSTBox: 650 # T3
       # 9.19
       919PSOGJBox: 100 # T1
       919PSTBox: 200 # T2
-      919RIPBox: 625 # Mutant
+      919RIPBox: 400 # Mutant
       919PBMBox: 800 # T3
       # 9.18
       918PGJBox: 100 # T1
       918PSTBox: 200 # T2
-      918SP7Box: 625 # Mutant
+      918SP7Box: 400 # Mutant
       918PBMBox: 800 # T3
       # 5.45
       545FMJBox: 500 # T2
@@ -202,8 +202,8 @@
       # .45
       45ACPLFMJBox: 100 # T1
       45ACPMFMJBox: 500 # T2
-      45ACPRIPBox: 1000 # Mutant
-      45ACPAPBox: 1500 # T3
+      45ACPRIPBox: 600 # Mutant
+      45ACPAPBox: 1250 # T3
       # .357
       MagazineBox357Magnum: 1000 # T2
       MagazineBox357MagnumAP: 2500 # T3
