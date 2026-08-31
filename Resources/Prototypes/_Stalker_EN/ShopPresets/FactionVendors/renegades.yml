@@ -223,6 +223,7 @@
       psyblock: 200
       MedkitAI2: 250
       MedkitMilitary: 400
+      MedkitScience: 400
       Defibrillator: 700
 
   - name: shop-category-provisions
