@@ -97,7 +97,7 @@
   description: A great smg able to tear through hoards of people.
   components:
     - type: Item
-      sprite: _Stalker.rsi
+      sprite: _Stalker_EN/Objects/Weapons/Guns/_Skins/Veresk_liturgy.rsi
       size: Large
       shape:
         - 0,0,5,1
