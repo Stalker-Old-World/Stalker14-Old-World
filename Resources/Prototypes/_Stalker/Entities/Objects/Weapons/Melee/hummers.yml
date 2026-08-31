@@ -78,6 +78,7 @@
     quickEquip: false
     slots:
     - back
+    - suitStorage
     # ST:OW end
   - type: PullDoAfter
     pullTime: 1
