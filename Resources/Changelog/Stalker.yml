@@ -3633,5 +3633,12 @@
   id: 408
   time: '2026-08-31T10:12:21.909920+00:00'
   url: https://github.com/Stalker-Old-World/Stalker14-Old-World/pull/22
+- author: Allias12
+  changes:
+  - message: Lowered the price of low caliber mutant ammo
+    type: Tweak
+  id: 409
+  time: '2026-09-01T19:13:07.845230+00:00'
+  url: https://github.com/Stalker-Old-World/Stalker14-Old-World/pull/24
 Name: Stalker
 Order: -1
