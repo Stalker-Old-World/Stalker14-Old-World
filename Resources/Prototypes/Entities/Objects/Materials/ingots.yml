@@ -2,8 +2,10 @@
   abstract: true
   parent: BaseItem
   id: IngotBase
-  description: A heavy metal ingot stamped with the Nanotrasen logo.
+  description: A lightly weathered metal ingot. # ST:OW
   components:
+  - type: STWeight # ST:OW
+    self: 30 # ST:OW
   - type: Sprite
     sprite: Objects/Materials/ingots.rsi
   - type: Item
