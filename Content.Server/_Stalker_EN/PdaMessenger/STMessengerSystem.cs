@@ -211,7 +211,40 @@ public sealed partial class STMessengerSystem : EntitySystem
 
         _config.OnValueChanged(STCCVars.MessengerDiscordWebhook, OnWebhookChanged, true);
     }
+    
+    // ST:OW begin
+    /// <summary>
+    /// Sends a server generated message to a PDA channel
+    /// </summary>
+    public void SendSystemChannelMessage(string channelId, string sender, string content)
+    {
+        if (!_protoManager.TryIndex<STMessengerChannelPrototype>(channelId, out var channelProto))
+            return;
 
+        var messages = _channelChats.GetOrNew(channelId);
+        
+        _nextMessageId.TryGetValue(channelId, out var currentId);
+        var msgId = currentId + 1;
+        _nextMessageId[channelId] = msgId;
+
+        var message = new STMessengerMessage(
+            msgId,
+            sender,
+            content,
+            _timing.CurTime);
+
+        messages.Add(message);
+        
+        if (messages.Count > MaxChannelMessages)
+        {
+            messages.RemoveAt(0); 
+        }
+
+        NotifyChannelRecipients(channelProto);
+        MarkBroadcastPending(channelId);
+    }
+    // ST:OW end
+    
     public override void Shutdown()
     {
         base.Shutdown();
@@ -630,7 +663,7 @@ public sealed partial class STMessengerSystem : EntitySystem
                 SendDiscordWebhook(chatId, displayName, content);
             }
 
-            NotifyChannelRecipients(channelProto, server);
+            NotifyChannelRecipients(channelProto); // ST:OW
 
             // Send pop-up notification for General channel
             if (channelProto.ID == "STGeneral")
@@ -831,7 +864,7 @@ public sealed partial class STMessengerSystem : EntitySystem
             _ringer.RingerPlayRingtone((recipientPdaUid, ringer));
     }
 
-    private void NotifyChannelRecipients(STMessengerChannelPrototype channelProto, STMessengerServerComponent senderServer)
+    private void NotifyChannelRecipients(STMessengerChannelPrototype channelProto) // ST:OW - senderServer wasn't being used?
     {
         // Use cached messenger PDAs instead of full entity query
         foreach (var (pdaUid, (cartridgeUid, _)) in _messengerPdas)
