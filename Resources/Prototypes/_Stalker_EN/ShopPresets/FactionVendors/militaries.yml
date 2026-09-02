@@ -39,7 +39,8 @@
   - name: shop-category-armor
     priority: 5
     items:
-      STClothingOuterArmorLightPlateVestBasePSZ7v3: 4
+      STClothingOuterArmorLightPlateVestBasePSZ7v3: 6 # 12k roubles - ST:OW
+      STClothingOuterArmorLightPlateVestBasePSZ7v1: 6 # 12k roubles - ST:OW
       STOWClothingHeadHelmetT3PVPAltMilitary: 4 # OW - Changed ID
     # STOWClothingHeadHelmetT3PVPMilitary: 4 - Removed in favor of the Sphere
       # late game
@@ -56,7 +57,6 @@
       ClothingBackpackDuffelBlackTacticStalker: 4
       ClothingBackpackDuffelBlackMilitaryTacticStalker: 4
       # ST:OW end
-
 
   - name: shop-category-raincoats-and-gasmasks
     priority: 7
@@ -75,6 +75,7 @@
       STModuleSilencerRiflesT2Ru: 3 #Equiv. 6k roubles
       STModuleSilencerSniperT2: 3 #Equiv. 6k roubles
       # ST:OW end
+      
 - type: shopPreset
   id: VoenstalShopPresetEN # This needs to be destroyed. Reworking pending for ST:OW
   minSellPrice: 5
@@ -691,9 +692,9 @@
       ClothingOuterArmorZaryaMilitary: 1460 # T2 - Universal
       ClothingOuterArmorSevaMilitary: 4550 # T2 - ENV
       #ClothingOuterArmorMilitarySpark: 4725 # T2 - ENV
-      STClothingOuterArmorLightPlateVestBasePSZ7v3: 7800 # T3 - PVP
-      STClothingOuterArmorLightPlateVestBasePSZ7v1: 7800 # T3 - PVP
       # ST:OW - Begin
+      #STClothingOuterArmorLightPlateVestBasePSZ7v3: 7800 # T3 - PVP
+      #STClothingOuterArmorLightPlateVestBasePSZ7v1: 7800 # T3 - PVP
       #STClothingOuterArmorLightPlateVestBaseANAgray: 7800 # T3 - PvP
       #STClothingOuterArmorLightPlateVestBaseANAgreen: 7800 # T3 - PVP
       # ST:OW - End
