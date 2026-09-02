@@ -2,6 +2,15 @@
   id: NpcJuryIzvorotinEN
   minSellPrice: 5
   itemsForSale:
+    # ST:OW begin
+    TreasureCoinIron: 50
+    TreasureCoinSilver: 100
+    TreasureCoinGold: 150
+    Wristwatch: 150
+    IngotSilver1: 350
+    IngotGold1: 500
+    MaterialDiamond1: 750
+    # ST:OW end
     STJewelrySilver: 400
     STJewelryGold: 600
     STWristwatchGold: 1500

@@ -2443,7 +2443,7 @@
         enum.StorageUiKey.Key:
           type: StorageBoundUserInterface
     - type: STWeight
-      self: 0.05
+      self: 1
     - type: Sprite
       sprite: _Stalker/Objects/Misc/bolts_bag.rsi
       state: cassette_bag

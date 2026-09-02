@@ -97,10 +97,12 @@
     CassetePremiumTwentyOneRadio: 405
     CassetePremiumTwentyTwoRadio: 405
   categories:
-    - name: shop-category-electronics
+    - name: shop-category-utilities
       priority: 1
       items:
         RadioStalkerPlayer: 2500
+        CasetsConBag: 3000 # ST:OW
+        
     - name: shop-category-cassettes
       priority: 2
       items:
