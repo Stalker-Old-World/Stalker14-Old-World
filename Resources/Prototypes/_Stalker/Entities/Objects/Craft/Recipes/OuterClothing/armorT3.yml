@@ -34,18 +34,20 @@
     STClothingOuterArmorLightPlateVestBasePSZ7Blueprint:
       amount: 1
       catalyzer: true
-    ToolkitTearOne:
+    # ST:OW begin
+    ToolkitTearTwo:
       amount: 1
       catalyzer: true
     STCraftSheetBrassT3:
-      amount: 2
+      amount: 4
     STCraftSturdyHideT3:
+      amount: 5
+    STCraftPlasticFittingT3:
       amount: 3
-    STCraftPlasticFittingT2:
-      amount: 2
     STCraftGlueKitT3:
-      amount: 1
-
+      amount: 2
+    # ST:OW end
+    
 # Севы
 - type: craftRecipe
   id: newrecipeClothingOuterArmorSevaStalker
@@ -83,18 +85,20 @@
     STClothingOuterArmorLightPlateVestBaseANAgrayBlueprint:
       amount: 1
       catalyzer: true
-    ToolkitTearOne:
+    # ST:OW begin
+    ToolkitTearTwo:
       amount: 1
       catalyzer: true
-    STCraftSheetIronT2:
-      amount: 2
+    STCraftSheetBrassT3:
+      amount: 5
     STCraftSturdyHideT3:
-      amount: 3
-    STCraftTapeKitT2:
-      amount: 1
-    STCraftPlasticFittingT2:
+      amount: 4
+    STCraftGlueKitT3:
       amount: 2
-
+    STCraftPlasticFittingT3:
+      amount: 3
+    # ST:OW end
+    
 #Страж
 
 - type: craftRecipe
