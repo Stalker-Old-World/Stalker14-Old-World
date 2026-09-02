@@ -82,16 +82,6 @@
     MutantPartSnorkFoot: 475
     MutantPartPsiDogTail: 400
     MutantPartFrogLeg: 300
-    #T3 -------- Health * 3 Modified by Oracle
-    MutantPartBloodsuckerTentacles: 1375
-    MutantPartOraculeEye: 1050
-    MutantPartZombieHand: 570
-    MutantPartPseudogiantHeart: 6800
-    ClothingMaskChimera: 1
-    MutantPartChimeraTooth: 1
-    MutantPartIzlomArm: 815
-    MutantPartBurerBrain: 1500
-    MutantPartControllerBrain: 2625
     # Meat
     FoodMeatDogCooked: 75
     STFoodMeatSpiderCooked: 40
@@ -101,12 +91,6 @@
     FoodMeatSTFishSteakCooked: 115
     FoodMeatSTEelCooked: 190
     STFoodMeatCvarci: 30
-    FoodMeatSTRatCooked: 5 # whatever
-    FoodMeatSTRatJerked: 10
-    FoodMeatSTDogJerkedSingle: 115
-    FoodMeatSTBoarJerkedSingle: 150
-    FoodMeatSTBearJerkedSingle: 265
-    FoodMeatSTSuckerJerkedSingle: 675
     STFoodMeatSalo: 30
 
   categories:
@@ -122,16 +106,6 @@
         STWeaponRevolverSWModel325: 500
         WeaponPistolStalkerAPS: 800 #T2
         STWeaponRevolverSWPC325TR: 900
-        # SMGs
-        STWeaponSMGMP40: 1000
-        STWeaponSMGPPSh41: 2500
-        STWeaponSMGPP91: 3000
-        # Rifles
-        STWeaponRifleSaiga545: 1350 # T3
-        STWeaponRifleAKS74: 3900
-        # Snipers
-        STWeaponSniperMosin: 1100
-        STWeaponSniperSKS: 1550
     - name: shop-category-magazines
       priority: 2
       items:
@@ -202,8 +176,6 @@
         # BackPacks
         ClothingBackpackTacticOliveStalker: 450 # T2
         ClothingBackpackTacticBeigeStalker: 450 # T2
-        ClothingBackpackMercStalker: 850 # T3 |pve backpack
-        ClothingBackpackStalkerZaryaGreen: 1200 #T3 |pvp backpack
         ClothingBeltPocketPouch: 500
         ClothingBeltHerbalistPouch: 500
     - name: shop-category-research-equipment
@@ -220,7 +192,6 @@
         ZoneArtifactDetectorPulse: 100 # T1
         ZoneArtifactDetectorHunter: 500 # T2
         ZoneArtifactDetectorResponse: 1250 # T2
-        ZoneArtifactDetectorSpruce: 6350 #T3
     - name: shop-category-utilities
       priority: 10
       items:
