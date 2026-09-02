@@ -3651,5 +3651,12 @@
   id: 410
   time: '2026-09-02T06:03:01.889787+00:00'
   url: https://github.com/Stalker-Old-World/Stalker14-Old-World/pull/26
+- author: kuro964
+  changes:
+  - message: Boar jerky prices nerfed at Butcher
+    type: Tweak
+  id: 411
+  time: '2026-09-02T19:34:41.764879+00:00'
+  url: https://github.com/Stalker-Old-World/Stalker14-Old-World/pull/27
 Name: Stalker
 Order: -1
