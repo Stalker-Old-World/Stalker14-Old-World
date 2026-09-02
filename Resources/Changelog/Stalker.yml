@@ -3640,5 +3640,16 @@
   id: 409
   time: '2026-09-01T19:13:07.845230+00:00'
   url: https://github.com/Stalker-Old-World/Stalker14-Old-World/pull/24
+- author: kuro964
+  changes:
+  - message: Cassette bags to Radio Amateur NPC
+    type: Add
+  - message: Cassette bag description
+    type: Tweak
+  - message: Yuri buys misc garbage items
+    type: Tweak
+  id: 410
+  time: '2026-09-02T06:03:01.889787+00:00'
+  url: https://github.com/Stalker-Old-World/Stalker14-Old-World/pull/26
 Name: Stalker
 Order: -1
