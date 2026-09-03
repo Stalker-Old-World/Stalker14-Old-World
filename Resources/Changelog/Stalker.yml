@@ -3658,5 +3658,12 @@
   id: 411
   time: '2026-09-02T19:34:41.764879+00:00'
   url: https://github.com/Stalker-Old-World/Stalker14-Old-World/pull/27
+- author: kuro964
+  changes:
+  - message: Rookie detector
+    type: Add
+  id: 412
+  time: '2026-09-03T04:25:29.599422+00:00'
+  url: https://github.com/Stalker-Old-World/Stalker14-Old-World/pull/29
 Name: Stalker
 Order: -1
