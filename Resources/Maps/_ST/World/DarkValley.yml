@@ -29819,7 +29819,7 @@ entities:
     - type: Transform
       pos: 32.96875,-18.914473
       parent: 1
-- proto: BlinddogPackTrigger100
+- proto: BlindDogPackTrigger100
   entities:
   - uid: 19957
     components:
@@ -98995,7 +98995,7 @@ entities:
     - type: Transform
       pos: 43.5,21.5
       parent: 1
-- proto: STTriggerBayun117530
+- proto: MutantSpawnerBayun_1to2_50
   entities:
   - uid: 19949
     components:
@@ -99017,7 +99017,7 @@ entities:
     - type: Transform
       pos: 102.5,-4.5
       parent: 1
-- proto: STTriggerBayun122530
+- proto: MutantSpawnerBayun_1to2_25
   entities:
   - uid: 19274
     components:
@@ -99029,7 +99029,7 @@ entities:
     - type: Transform
       pos: 80.5,-38.5
       parent: 1
-- proto: STTriggerBayun127530
+- proto: MutantSpawnerBayun_1to2_50
   entities:
   - uid: 18254
     components:
@@ -99046,7 +99046,7 @@ entities:
     - type: Transform
       pos: 107.5,-43.5
       parent: 1
-- proto: STTriggerBayun1410030
+- proto: MutantSpawnerBayun_1to4_50
   entities:
   - uid: 19276
     components:
@@ -99058,7 +99058,7 @@ entities:
     - type: Transform
       pos: 68.5,76.5
       parent: 1
-- proto: STTriggerBlindDog121010
+- proto: MutantSpawnerBlindDog_1to2_10
   entities:
   - uid: 18259
     components:
@@ -99075,7 +99075,7 @@ entities:
     - type: Transform
       pos: 61.5,-53.5
       parent: 1
-- proto: STTriggerBlindDog125010
+- proto: MutantSpawnerBlindDog_1to2_50
   entities:
   - uid: 19279
     components:
@@ -99087,7 +99087,7 @@ entities:
     - type: Transform
       pos: 97.5,-23.5
       parent: 1
-- proto: STTriggerBlindDog142010
+- proto: MutantSpawnerBlindDog_1to4_25
   entities:
   - uid: 6821
     components:
@@ -99140,7 +99140,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 52.5,35.5
       parent: 1
-- proto: STTriggerBush121010
+- proto: MutantSpawnerBush_1to2_10
   entities:
   - uid: 18199
     components:
@@ -99158,7 +99158,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 65.5,4.5
       parent: 1
-- proto: STTriggerBush145010
+- proto: MutantSpawnerBush_1to4_50
   entities:
   - uid: 18200
     components:
@@ -99190,7 +99190,7 @@ entities:
     - type: Transform
       pos: 48.5,-22.5
       parent: 1
-- proto: STTriggerFlesh121010
+- proto: MutantSpawnerFlesh_1to2_10
   entities:
   - uid: 18464
     components:
@@ -99202,14 +99202,14 @@ entities:
     - type: Transform
       pos: -57.5,52.5
       parent: 1
-- proto: STTriggerFlesh125010
+- proto: MutantSpawnerFlesh_1to2_50
   entities:
   - uid: 18466
     components:
     - type: Transform
       pos: -62.5,51.5
       parent: 1
-- proto: STTriggerLeshiy121010
+- proto: MutantSpawnerLeshy_1to2_10
   entities:
   - uid: 18205
     components:
@@ -99221,21 +99221,21 @@ entities:
     - type: Transform
       pos: -28.5,45.5
       parent: 1
-- proto: STTriggerLeshiy125030
+- proto: MutantSpawnerLeshy_1to2_50
   entities:
   - uid: 18203
     components:
     - type: Transform
       pos: 36.5,0.5
       parent: 1
-- proto: STTriggerOldBoar121030
+- proto: MutantSpawnerOldBoar_1to2_10
   entities:
   - uid: 19277
     components:
     - type: Transform
       pos: 138.5,66.5
       parent: 1
-- proto: STTriggerPoltergeistFire115030
+- proto: MutantSpawnerPoltergeistFire_1_50
   entities:
   - uid: 7293
     components:
@@ -99247,7 +99247,7 @@ entities:
     - type: Transform
       pos: 122.5,20.5
       parent: 1
-- proto: STTriggerPoltergeistFire121010
+- proto: MutantSpawnerPoltergeistFire_1to2_10
   entities:
   - uid: 18455
     components:
@@ -99269,7 +99269,7 @@ entities:
     - type: Transform
       pos: -51.5,28.5
       parent: 1
-- proto: STTriggerPseudodog121010
+- proto: MutantSpawnerPseudodog_1to2_10
   entities:
   - uid: 7690
     components:
@@ -99281,28 +99281,28 @@ entities:
     - type: Transform
       pos: 27.5,94.5
       parent: 1
-- proto: STTriggerPseudodog122510
+- proto: MutantSpawnerPseudodog_1to2_25
   entities:
   - uid: 19278
     components:
     - type: Transform
       pos: 97.5,-29.5
       parent: 1
-- proto: STTriggerPseudodog125010
+- proto: MutantSpawnerPseudodog_1to2_50
   entities:
   - uid: 18794
     components:
     - type: Transform
       pos: 31.5,99.5
       parent: 1
-- proto: STTriggerPseudodog125030
+- proto: MutantSpawnerPseudodog_1to2_50
   entities:
   - uid: 7725
     components:
     - type: Transform
       pos: 50.5,-48.5
       parent: 1
-- proto: STTriggerRat121010
+- proto: MutantSpawnerRodent_1to2_10
   entities:
   - uid: 7624
     components:
@@ -99314,7 +99314,7 @@ entities:
     - type: Transform
       pos: -1.5,83.5
       parent: 1
-- proto: STTriggerRat142010
+- proto: MutantSpawnerRodent_1to4_25
   entities:
   - uid: 7744
     components:
@@ -99326,7 +99326,7 @@ entities:
     - type: Transform
       pos: 5.5,44.5
       parent: 1
-- proto: STTriggerRodent121010
+- proto: MutantSpawnerRodent_1to2_10
   entities:
   - uid: 7582
     components:
@@ -99353,14 +99353,14 @@ entities:
     - type: Transform
       pos: 1.5,62.5
       parent: 1
-- proto: STTriggerRodent142010
+- proto: MutantSpawnerRodent_1to4_25
   entities:
   - uid: 7640
     components:
     - type: Transform
       pos: 17.5,58.5
       parent: 1
-- proto: STTriggerSeasonedBoar122530
+- proto: MutantSpawnerMatureBoar_1to2_25
   entities:
   - uid: 7494
     components:
@@ -99397,14 +99397,14 @@ entities:
     - type: Transform
       pos: 127.5,48.5
       parent: 1
-- proto: STTriggerSeasonedBoar125010
+- proto: MutantSpawnerMatureBoar_1to2_50
   entities:
   - uid: 7532
     components:
     - type: Transform
       pos: 134.5,-62.5
       parent: 1
-- proto: STTriggerSeasonedBoar142530
+- proto: MutantSpawnerMatureBoar_1to4_25
   entities:
   - uid: 7581
     components:
@@ -99421,7 +99421,7 @@ entities:
     - type: Transform
       pos: -76.5,67.5
       parent: 1
-- proto: STTriggerSeer121030
+- proto: MutantSpawnerSeer_1to2_10
   entities:
   - uid: 18242
     components:
@@ -99443,7 +99443,7 @@ entities:
     - type: Transform
       pos: -25.5,34.5
       parent: 1
-- proto: STTriggerSnork121010
+- proto: MutantSpawnerSnork_1to2_10
   entities:
   - uid: 17950
     components:
