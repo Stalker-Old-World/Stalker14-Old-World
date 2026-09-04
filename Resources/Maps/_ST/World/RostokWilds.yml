@@ -91427,7 +91427,7 @@ entities:
     - type: Transform
       pos: -168.35985,181.72488
       parent: 1
-- proto: BlinddogPackTrigger100
+- proto: BlindDogPackTrigger100
   entities:
   - uid: 427
     components:
@@ -219142,14 +219142,14 @@ entities:
     - type: Transform
       pos: -5.5,102.5
       parent: 1
-- proto: STTriggerBayun117530
+- proto: MutantSpawnerBayun_1to2_50
   entities:
   - uid: 26702
     components:
     - type: Transform
       pos: -86.5,96.5
       parent: 1
-- proto: STTriggerBayun122530
+- proto: MutantSpawnerBayun_1to2_25
   entities:
   - uid: 26828
     components:
@@ -219201,38 +219201,21 @@ entities:
     - type: Transform
       pos: -436.5,158.5
       parent: 1
-- proto: STTriggerBayun125
-  entities:
-  - uid: 26826
-    components:
-    - type: Transform
-      pos: -64.5,131.5
-      parent: 1
-  - uid: 26855
-    components:
-    - type: Transform
-      pos: -188.5,209.5
-      parent: 1
-  - uid: 29440
-    components:
-    - type: Transform
-      pos: -198.5,207.5
-      parent: 1
-- proto: STTriggerBearT1122530
+- proto: MutantSpawnerYoungBear_1to2_25
   entities:
   - uid: 20312
     components:
     - type: Transform
       pos: -74.5,91.5
       parent: 1
-- proto: STTriggerBearT3127530
+- proto: MutantSpawnerOldBear_1to2_75
   entities:
   - uid: 20318
     components:
     - type: Transform
       pos: -100.5,250.5
       parent: 1
-- proto: STTriggerBlindDog121010
+- proto: MutantSpawnerBlindDog_1to2_10
   entities:
   - uid: 145
     components:
@@ -219277,7 +219260,7 @@ entities:
     - type: Transform
       pos: -332.5,259.5
       parent: 1
-- proto: STTriggerBlindDog125010
+- proto: MutantSpawnerBlindDog_1to2_50
   entities:
   - uid: 28654
     components:
@@ -219289,7 +219272,7 @@ entities:
     - type: Transform
       pos: -360.5,264.5
       parent: 1
-- proto: STTriggerBlindDog142010
+- proto: MutantSpawnerBlindDog_1to4_25
   entities:
   - uid: 6577
     components:
@@ -219306,21 +219289,21 @@ entities:
     - type: Transform
       pos: 14.5,142.5
       parent: 1
-- proto: STTriggerBloodSucker125030
+- proto: MutantSpawnerBloodsucker_1to2_50
   entities:
   - uid: 26872
     components:
     - type: Transform
       pos: -124.5,300.5
       parent: 1
-- proto: STTriggerBloodSucker145030
+- proto: MutantSpawnerBloodsucker_1to4_50
   entities:
   - uid: 28208
     components:
     - type: Transform
       pos: -322.5,224.5
       parent: 1
-- proto: STTriggerOldBoar122530
+- proto: MutantSpawnerOldBoar_1to2_25
   entities:
   - uid: 19694
     components:
@@ -219337,42 +219320,42 @@ entities:
     - type: Transform
       pos: -94.5,268.5
       parent: 1
-- proto: STTriggerPoltergeistElec115030
+- proto: MutantSpawnerPoltergeistElec_1_50
   entities:
   - uid: 27975
     components:
     - type: Transform
       pos: -301.5,228.5
       parent: 1
-- proto: STTriggerPoltergeistElec1210010
+- proto: MutantSpawnerPoltergeistElec_1to2_50
   entities:
   - uid: 20324
     components:
     - type: Transform
       pos: -73.5,66.5
       parent: 1
-- proto: STTriggerPseudodog1210010
+- proto: MutantSpawnerPseudodog_1to2_50
   entities:
   - uid: 29007
     components:
     - type: Transform
       pos: -354.5,261.5
       parent: 1
-- proto: STTriggerPseudodog121030
+- proto: MutantSpawnerPseudodog_1to2_10
   entities:
   - uid: 26852
     components:
     - type: Transform
       pos: -163.5,188.5
       parent: 1
-- proto: STTriggerPseudodog125030
+- proto: MutantSpawnerPseudodog_1to2_50
   entities:
   - uid: 28382
     components:
     - type: Transform
       pos: -247.5,224.5
       parent: 1
-- proto: STTriggerRodent121010
+- proto: MutantSpawnerRodent_1to2_10
   entities:
   - uid: 7504
     components:
@@ -219424,7 +219407,7 @@ entities:
     - type: Transform
       pos: -119.5,228.5
       parent: 1
-- proto: STTriggerRodent125010
+- proto: MutantSpawnerRodent_1to2_50
   entities:
   - uid: 2716
     components:
@@ -219446,14 +219429,14 @@ entities:
     - type: Transform
       pos: -34.5,110.5
       parent: 1
-- proto: STTriggerRodent142010
+- proto: MutantSpawnerRodent_1to4_25
   entities:
   - uid: 19591
     components:
     - type: Transform
       pos: -46.5,233.5
       parent: 1
-- proto: STTriggerRodent145010
+- proto: MutantSpawnerRodent_1to4_50
   entities:
   - uid: 20330
     components:
@@ -219465,7 +219448,7 @@ entities:
     - type: Transform
       pos: -3.5,107.5
       parent: 1
-- proto: STTriggerSeasonedBoar122530
+- proto: MutantSpawnerMatureBoar_1to2_25
   entities:
   - uid: 6371
     components:
@@ -219477,14 +219460,14 @@ entities:
     - type: Transform
       pos: -61.5,282.5
       parent: 1
-- proto: STTriggerSeasonedBoar142530
+- proto: MutantSpawnerMatureBoar_1to4_25
   entities:
   - uid: 20082
     components:
     - type: Transform
       pos: -125.5,262.5
       parent: 1
-- proto: STTriggerSnork121010
+- proto: MutantSpawnerSnork_1to2_10
   entities:
   - uid: 19416
     components:
@@ -219521,7 +219504,7 @@ entities:
     - type: Transform
       pos: -325.5,250.5
       parent: 1
-- proto: STTriggerSnork125030
+- proto: MutantSpawnerSnork_1to2_50
   entities:
   - uid: 5
     components:
@@ -219543,14 +219526,14 @@ entities:
     - type: Transform
       pos: -318.5,270.5
       parent: 1
-- proto: STTriggerSnork142010
+- proto: MutantSpawnerSnork_1to4_25
   entities:
   - uid: 20285
     components:
     - type: Transform
       pos: -82.5,283.5
       parent: 1
-- proto: STTriggerZombie121010
+- proto: MutantSpawnerZombie_1to2_10
   entities:
   - uid: 28606
     components:
@@ -219562,7 +219545,7 @@ entities:
     - type: Transform
       pos: -400.5,226.5
       parent: 1
-- proto: STTriggerZombie145030
+- proto: MutantSpawnerZombie_1to4_50
   entities:
   - uid: 28581
     components:
