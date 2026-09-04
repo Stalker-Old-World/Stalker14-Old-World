@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.0.0
   forkId: ""
   forkVersion: ""
-  time: 08/29/2026 23:32:29
-  entityCount: 22692
+  time: 09/04/2026 04:22:44
+  entityCount: 22673
 maps:
 - 1
 grids:
@@ -114391,6 +114391,41 @@ entities:
       parent: 1
     - type: Fixtures
       fixtures: {}
+  - uid: 4258
+    components:
+    - type: Transform
+      pos: 51.5,331.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+  - uid: 4267
+    components:
+    - type: Transform
+      pos: 61.5,331.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+  - uid: 4268
+    components:
+    - type: Transform
+      pos: 81.5,344.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+  - uid: 4270
+    components:
+    - type: Transform
+      pos: 41.5,350.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+  - uid: 4275
+    components:
+    - type: Transform
+      pos: 65.5,353.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
   - uid: 4276
     components:
     - type: Transform
@@ -142745,6 +142780,682 @@ entities:
       rot: -1.6929693744344991 rad
       pos: 3.934342,-34.54904
       parent: 1
+- proto: MutantSpawnerBayun_1to2_25
+  entities:
+  - uid: 2996
+    components:
+    - type: Transform
+      pos: 62.5,55.5
+      parent: 1
+  - uid: 3310
+    components:
+    - type: Transform
+      pos: 28.5,297.5
+      parent: 1
+  - uid: 3683
+    components:
+    - type: Transform
+      pos: -1.5,51.5
+      parent: 1
+- proto: MutantSpawnerBayun_1to2_50
+  entities:
+  - uid: 1243
+    components:
+    - type: Transform
+      pos: 58.5,230.5
+      parent: 1
+  - uid: 3062
+    components:
+    - type: Transform
+      pos: 55.5,128.5
+      parent: 1
+  - uid: 28754
+    components:
+    - type: Transform
+      pos: 61.5,271.5
+      parent: 1
+- proto: MutantSpawnerBayun_1to4_50
+  entities:
+  - uid: 3168
+    components:
+    - type: Transform
+      pos: 144.5,233.5
+      parent: 1
+  - uid: 4225
+    components:
+    - type: Transform
+      pos: 26.5,287.5
+      parent: 1
+- proto: MutantSpawnerBlindDog_1to2_10
+  entities:
+  - uid: 3166
+    components:
+    - type: Transform
+      pos: -4.5,187.5
+      parent: 1
+  - uid: 3184
+    components:
+    - type: Transform
+      pos: 113.5,391.5
+      parent: 1
+  - uid: 3207
+    components:
+    - type: Transform
+      pos: 89.5,194.5
+      parent: 1
+  - uid: 3208
+    components:
+    - type: Transform
+      pos: 45.5,272.5
+      parent: 1
+  - uid: 3209
+    components:
+    - type: Transform
+      pos: 126.5,255.5
+      parent: 1
+  - uid: 3210
+    components:
+    - type: Transform
+      pos: 83.5,265.5
+      parent: 1
+  - uid: 3219
+    components:
+    - type: Transform
+      pos: 170.5,169.5
+      parent: 1
+  - uid: 3224
+    components:
+    - type: Transform
+      pos: 166.5,264.5
+      parent: 1
+  - uid: 3262
+    components:
+    - type: Transform
+      pos: 54.5,199.5
+      parent: 1
+  - uid: 3272
+    components:
+    - type: Transform
+      pos: 179.5,198.5
+      parent: 1
+  - uid: 3530
+    components:
+    - type: Transform
+      pos: 2.5,167.5
+      parent: 1
+  - uid: 4217
+    components:
+    - type: Transform
+      pos: 30.5,140.5
+      parent: 1
+  - uid: 4272
+    components:
+    - type: Transform
+      pos: 72.5,82.5
+      parent: 1
+  - uid: 22794
+    components:
+    - type: Transform
+      pos: 12.5,216.5
+      parent: 1
+  - uid: 22805
+    components:
+    - type: Transform
+      pos: 199.5,260.5
+      parent: 1
+  - uid: 22841
+    components:
+    - type: Transform
+      pos: 91.5,103.5
+      parent: 1
+  - uid: 54296
+    components:
+    - type: Transform
+      pos: 25.5,320.5
+      parent: 1
+  - uid: 55361
+    components:
+    - type: Transform
+      pos: 132.5,344.5
+      parent: 1
+  - uid: 56191
+    components:
+    - type: Transform
+      pos: 133.5,360.5
+      parent: 1
+- proto: MutantSpawnerBlindDog_1to2_25
+  entities:
+  - uid: 3191
+    components:
+    - type: Transform
+      pos: -34.5,198.5
+      parent: 1
+  - uid: 3512
+    components:
+    - type: Transform
+      pos: 209.5,226.5
+      parent: 1
+- proto: MutantSpawnerBlindDog_1to2_50
+  entities:
+  - uid: 3239
+    components:
+    - type: Transform
+      pos: 173.5,251.5
+      parent: 1
+  - uid: 3708
+    components:
+    - type: Transform
+      pos: 148.5,191.5
+      parent: 1
+  - uid: 4245
+    components:
+    - type: Transform
+      pos: 79.5,116.5
+      parent: 1
+  - uid: 4246
+    components:
+    - type: Transform
+      pos: 83.5,147.5
+      parent: 1
+  - uid: 4271
+    components:
+    - type: Transform
+      pos: 84.5,369.5
+      parent: 1
+- proto: MutantSpawnerBlindDog_1to4_25
+  entities:
+  - uid: 2765
+    components:
+    - type: Transform
+      pos: 183.5,268.5
+      parent: 1
+  - uid: 3004
+    components:
+    - type: Transform
+      pos: 107.5,322.5
+      parent: 1
+  - uid: 3190
+    components:
+    - type: Transform
+      pos: 170.5,120.5
+      parent: 1
+  - uid: 3251
+    components:
+    - type: Transform
+      pos: 76.5,293.5
+      parent: 1
+  - uid: 3264
+    components:
+    - type: Transform
+      pos: 118.5,153.5
+      parent: 1
+  - uid: 3533
+    components:
+    - type: Transform
+      pos: 70.5,253.5
+      parent: 1
+  - uid: 3535
+    components:
+    - type: Transform
+      pos: 180.5,187.5
+      parent: 1
+  - uid: 3796
+    components:
+    - type: Transform
+      pos: 133.5,173.5
+      parent: 1
+  - uid: 4247
+    components:
+    - type: Transform
+      pos: 117.5,306.5
+      parent: 1
+  - uid: 4248
+    components:
+    - type: Transform
+      pos: 144.5,301.5
+      parent: 1
+- proto: MutantSpawnerBlindDog_1to4_50
+  entities:
+  - uid: 317
+    components:
+    - type: Transform
+      pos: 123.5,360.5
+      parent: 1
+  - uid: 3180
+    components:
+    - type: Transform
+      pos: 183.5,152.5
+      parent: 1
+  - uid: 3252
+    components:
+    - type: Transform
+      pos: 27.5,168.5
+      parent: 1
+  - uid: 3321
+    components:
+    - type: Transform
+      pos: 46.5,245.5
+      parent: 1
+  - uid: 3707
+    components:
+    - type: Transform
+      pos: -52.5,219.5
+      parent: 1
+  - uid: 4249
+    components:
+    - type: Transform
+      pos: 25.5,219.5
+      parent: 1
+  - uid: 4251
+    components:
+    - type: Transform
+      pos: 193.5,213.5
+      parent: 1
+  - uid: 4269
+    components:
+    - type: Transform
+      pos: -38.5,3.5
+      parent: 1
+  - uid: 4273
+    components:
+    - type: Transform
+      pos: 134.5,116.5
+      parent: 1
+  - uid: 4274
+    components:
+    - type: Transform
+      pos: -51.5,50.5
+      parent: 1
+- proto: MutantSpawnerBoar_1to2_10
+  entities:
+  - uid: 3031
+    components:
+    - type: Transform
+      pos: 117.5,243.5
+      parent: 1
+  - uid: 3797
+    components:
+    - type: Transform
+      pos: 106.5,271.5
+      parent: 1
+  - uid: 47744
+    components:
+    - type: Transform
+      pos: 181.5,297.5
+      parent: 1
+  - uid: 47899
+    components:
+    - type: Transform
+      pos: 43.5,303.5
+      parent: 1
+  - uid: 48443
+    components:
+    - type: Transform
+      pos: 15.5,314.5
+      parent: 1
+  - uid: 48758
+    components:
+    - type: Transform
+      pos: 54.5,319.5
+      parent: 1
+  - uid: 56591
+    components:
+    - type: Transform
+      pos: 134.5,375.5
+      parent: 1
+  - uid: 56890
+    components:
+    - type: Transform
+      pos: 131.5,395.5
+      parent: 1
+  - uid: 56955
+    components:
+    - type: Transform
+      pos: 161.5,397.5
+      parent: 1
+  - uid: 57366
+    components:
+    - type: Transform
+      pos: 124.5,412.5
+      parent: 1
+- proto: MutantSpawnerBoar_1to2_25
+  entities:
+  - uid: 3023
+    components:
+    - type: Transform
+      pos: 87.5,404.5
+      parent: 1
+  - uid: 3058
+    components:
+    - type: Transform
+      pos: 134.5,275.5
+      parent: 1
+  - uid: 3179
+    components:
+    - type: Transform
+      pos: 190.5,230.5
+      parent: 1
+  - uid: 3182
+    components:
+    - type: Transform
+      pos: -30.5,42.5
+      parent: 1
+  - uid: 3195
+    components:
+    - type: Transform
+      pos: 127.5,218.5
+      parent: 1
+  - uid: 3211
+    components:
+    - type: Transform
+      pos: 189.5,251.5
+      parent: 1
+  - uid: 3221
+    components:
+    - type: Transform
+      pos: 60.5,104.5
+      parent: 1
+  - uid: 3223
+    components:
+    - type: Transform
+      pos: 166.5,219.5
+      parent: 1
+  - uid: 3254
+    components:
+    - type: Transform
+      pos: 44.5,33.5
+      parent: 1
+  - uid: 3261
+    components:
+    - type: Transform
+      pos: 25.5,50.5
+      parent: 1
+  - uid: 3316
+    components:
+    - type: Transform
+      pos: 170.5,275.5
+      parent: 1
+  - uid: 3494
+    components:
+    - type: Transform
+      pos: -27.5,74.5
+      parent: 1
+  - uid: 3500
+    components:
+    - type: Transform
+      pos: 70.5,175.5
+      parent: 1
+  - uid: 3514
+    components:
+    - type: Transform
+      pos: 162.5,197.5
+      parent: 1
+  - uid: 4252
+    components:
+    - type: Transform
+      pos: 138.5,433.5
+      parent: 1
+  - uid: 4253
+    components:
+    - type: Transform
+      pos: 156.5,419.5
+      parent: 1
+  - uid: 56228
+    components:
+    - type: Transform
+      pos: 145.5,362.5
+      parent: 1
+  - uid: 56621
+    components:
+    - type: Transform
+      pos: 66.5,377.5
+      parent: 1
+- proto: MutantSpawnerBoar_1to2_50
+  entities:
+  - uid: 3181
+    components:
+    - type: Transform
+      pos: 15.5,238.5
+      parent: 1
+  - uid: 3248
+    components:
+    - type: Transform
+      pos: 99.5,203.5
+      parent: 1
+- proto: MutantSpawnerBoar_1to4_25
+  entities:
+  - uid: 3526
+    components:
+    - type: Transform
+      pos: -12.5,228.5
+      parent: 1
+  - uid: 3667
+    components:
+    - type: Transform
+      pos: 135.5,328.5
+      parent: 1
+- proto: MutantSpawnerBoar_1to4_50
+  entities:
+  - uid: 3236
+    components:
+    - type: Transform
+      pos: 202.5,177.5
+      parent: 1
+  - uid: 3534
+    components:
+    - type: Transform
+      pos: 32.5,262.5
+      parent: 1
+  - uid: 4244
+    components:
+    - type: Transform
+      pos: -51.5,244.5
+      parent: 1
+- proto: MutantSpawnerCanineT2_1to4_50
+  entities:
+  - uid: 3271
+    components:
+    - type: Transform
+      pos: 170.5,326.5
+      parent: 1
+  - uid: 3706
+    components:
+    - type: Transform
+      pos: 206.5,199.5
+      parent: 1
+- proto: MutantSpawnerMatureBoar_1to2_10
+  entities:
+  - uid: 3059
+    components:
+    - type: Transform
+      pos: 78.5,78.5
+      parent: 1
+  - uid: 3060
+    components:
+    - type: Transform
+      pos: 81.5,313.5
+      parent: 1
+  - uid: 3511
+    components:
+    - type: Transform
+      pos: 18.5,347.5
+      parent: 1
+- proto: MutantSpawnerMatureBoar_1to2_25
+  entities:
+  - uid: 2990
+    components:
+    - type: Transform
+      pos: 23.5,202.5
+      parent: 1
+  - uid: 3213
+    components:
+    - type: Transform
+      pos: 86.5,248.5
+      parent: 1
+  - uid: 3215
+    components:
+    - type: Transform
+      pos: 125.5,234.5
+      parent: 1
+  - uid: 3225
+    components:
+    - type: Transform
+      pos: 138.5,247.5
+      parent: 1
+- proto: MutantSpawnerMatureBoar_1to2_50
+  entities:
+  - uid: 3263
+    components:
+    - type: Transform
+      pos: 108.5,408.5
+      parent: 1
+- proto: MutantSpawnerMatureBoar_1to4_25
+  entities:
+  - uid: 4222
+    components:
+    - type: Transform
+      pos: -34.5,256.5
+      parent: 1
+- proto: MutantSpawnerPoltergeistElec_1_50
+  entities:
+  - uid: 3302
+    components:
+    - type: Transform
+      pos: 60.5,435.5
+      parent: 1
+- proto: MutantSpawnerRodent_1to2_10
+  entities:
+  - uid: 2999
+    components:
+    - type: Transform
+      pos: 152.5,247.5
+      parent: 1
+  - uid: 28850
+    components:
+    - type: Transform
+      pos: 74.5,233.5
+      parent: 1
+  - uid: 28853
+    components:
+    - type: Transform
+      pos: 66.5,234.5
+      parent: 1
+  - uid: 28858
+    components:
+    - type: Transform
+      pos: 62.5,215.5
+      parent: 1
+  - uid: 28870
+    components:
+    - type: Transform
+      pos: 50.5,227.5
+      parent: 1
+- proto: MutantSpawnerRodent_1to2_25
+  entities:
+  - uid: 4224
+    components:
+    - type: Transform
+      pos: 8.5,262.5
+      parent: 1
+- proto: MutantSpawnerRodent_1to2_50
+  entities:
+  - uid: 3255
+    components:
+    - type: Transform
+      pos: 62.5,430.5
+      parent: 1
+- proto: MutantSpawnerRodent_1to4_25
+  entities:
+  - uid: 3237
+    components:
+    - type: Transform
+      pos: 101.5,286.5
+      parent: 1
+  - uid: 3495
+    components:
+    - type: Transform
+      pos: 122.5,352.5
+      parent: 1
+  - uid: 3504
+    components:
+    - type: Transform
+      pos: -5.5,254.5
+      parent: 1
+  - uid: 3517
+    components:
+    - type: Transform
+      pos: -31.5,233.5
+      parent: 1
+  - uid: 4242
+    components:
+    - type: Transform
+      pos: 128.5,366.5
+      parent: 1
+  - uid: 4243
+    components:
+    - type: Transform
+      pos: 120.5,367.5
+      parent: 1
+- proto: MutantSpawnerRodent_1to4_50
+  entities:
+  - uid: 3187
+    components:
+    - type: Transform
+      pos: 157.5,255.5
+      parent: 1
+  - uid: 3240
+    components:
+    - type: Transform
+      pos: 139.5,256.5
+      parent: 1
+  - uid: 3709
+    components:
+    - type: Transform
+      pos: 121.5,179.5
+      parent: 1
+  - uid: 3710
+    components:
+    - type: Transform
+      pos: 131.5,206.5
+      parent: 1
+  - uid: 3711
+    components:
+    - type: Transform
+      pos: 132.5,182.5
+      parent: 1
+  - uid: 4227
+    components:
+    - type: Transform
+      pos: 122.5,193.5
+      parent: 1
+- proto: MutantSpawnerSnork_1to2_01
+  entities:
+  - uid: 4250
+    components:
+    - type: Transform
+      pos: 118.5,210.5
+      parent: 1
+- proto: MutantSpawnerSnork_1to4_50
+  entities:
+  - uid: 3731
+    components:
+    - type: Transform
+      pos: 147.5,244.5
+      parent: 1
+- proto: MutantSpawnerSwampT1_1to3_50
+  entities:
+  - uid: 3513
+    components:
+    - type: Transform
+      pos: 77.5,414.5
+      parent: 1
+- proto: MutantSpawnerYoungBear_1to2_10
+  entities:
+  - uid: 42191
+    components:
+    - type: Transform
+      pos: 73.5,33.5
+      parent: 1
 - proto: NoticeBoard
   entities:
   - uid: 9459
@@ -154908,78 +155619,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: -50.5,124.5
       parent: 1
-- proto: SpawnerZoneAnomalyElectraChance1
-  entities:
-  - uid: 317
-    components:
-    - type: Transform
-      pos: 60.5,430.5
-      parent: 1
-  - uid: 323
-    components:
-    - type: Transform
-      pos: 61.5,432.5
-      parent: 1
-  - uid: 787
-    components:
-    - type: Transform
-      pos: 64.5,427.5
-      parent: 1
-  - uid: 1022
-    components:
-    - type: Transform
-      pos: 60.5,431.5
-      parent: 1
-  - uid: 1196
-    components:
-    - type: Transform
-      pos: 61.5,431.5
-      parent: 1
-  - uid: 1216
-    components:
-    - type: Transform
-      pos: 64.5,426.5
-      parent: 1
-  - uid: 1243
-    components:
-    - type: Transform
-      pos: 60.5,432.5
-      parent: 1
-  - uid: 3667
-    components:
-    - type: Transform
-      pos: 63.5,427.5
-      parent: 1
-  - uid: 3706
-    components:
-    - type: Transform
-      pos: 61.5,430.5
-      parent: 1
-  - uid: 3707
-    components:
-    - type: Transform
-      pos: 61.5,429.5
-      parent: 1
-  - uid: 3708
-    components:
-    - type: Transform
-      pos: 62.5,429.5
-      parent: 1
-  - uid: 3709
-    components:
-    - type: Transform
-      pos: 63.5,429.5
-      parent: 1
-  - uid: 3710
-    components:
-    - type: Transform
-      pos: 64.5,429.5
-      parent: 1
-  - uid: 3711
-    components:
-    - type: Transform
-      pos: 60.5,433.5
-      parent: 1
 - proto: SpawnerZoneAnomalyElectraChance10
   entities:
   - uid: 2404
@@ -155079,6 +155718,31 @@ entities:
       parent: 1
 - proto: SpawnerZoneAnomalyElectraChance100
   entities:
+  - uid: 323
+    components:
+    - type: Transform
+      pos: 60.5,430.5
+      parent: 1
+  - uid: 787
+    components:
+    - type: Transform
+      pos: 62.5,437.5
+      parent: 1
+  - uid: 1022
+    components:
+    - type: Transform
+      pos: 57.5,436.5
+      parent: 1
+  - uid: 1196
+    components:
+    - type: Transform
+      pos: 61.5,432.5
+      parent: 1
+  - uid: 1216
+    components:
+    - type: Transform
+      pos: 66.5,427.5
+      parent: 1
   - uid: 3598
     components:
     - type: Transform
@@ -202826,757 +203490,6 @@ entities:
     components:
     - type: Transform
       pos: 99.5,212.5
-      parent: 1
-- proto: MutantSpawnerBayun_1to2_50
-  entities:
-  - uid: 28754
-    components:
-    - type: Transform
-      pos: 61.5,271.5
-      parent: 1
-- proto: MutantSpawnerBayun_1to2_25
-  entities:
-  - uid: 2996
-    components:
-    - type: Transform
-      pos: 62.5,55.5
-      parent: 1
-  - uid: 3310
-    components:
-    - type: Transform
-      pos: 28.5,297.5
-      parent: 1
-  - uid: 3683
-    components:
-    - type: Transform
-      pos: -1.5,51.5
-      parent: 1
-  - uid: 28834
-    components:
-    - type: Transform
-      pos: 57.5,231.5
-      parent: 1
-- proto: MutantSpawnerBayun_1to2_50
-  entities:
-  - uid: 3062
-    components:
-    - type: Transform
-      pos: 55.5,128.5
-      parent: 1
-- proto: MutantSpawnerBayun_1to4_50
-  entities:
-  - uid: 3168
-    components:
-    - type: Transform
-      pos: 144.5,233.5
-      parent: 1
-- proto: MutantSpawnerYoungBear_1to2_10
-  entities:
-  - uid: 42191
-    components:
-    - type: Transform
-      pos: 73.5,33.5
-      parent: 1
-- proto: MutantSpawnerYoungBear_1to2_10
-  entities:
-  - uid: 56776
-    components:
-    - type: Transform
-      pos: 76.5,388.5
-      parent: 1
-- proto: MutantSpawnerBlindDog_1to2_10
-  entities:
-  - uid: 3166
-    components:
-    - type: Transform
-      pos: -4.5,187.5
-      parent: 1
-  - uid: 3184
-    components:
-    - type: Transform
-      pos: 113.5,391.5
-      parent: 1
-  - uid: 3191
-    components:
-    - type: Transform
-      pos: 182.5,268.5
-      parent: 1
-  - uid: 3207
-    components:
-    - type: Transform
-      pos: 89.5,194.5
-      parent: 1
-  - uid: 3209
-    components:
-    - type: Transform
-      pos: 126.5,255.5
-      parent: 1
-  - uid: 3210
-    components:
-    - type: Transform
-      pos: 83.5,265.5
-      parent: 1
-  - uid: 3219
-    components:
-    - type: Transform
-      pos: 170.5,169.5
-      parent: 1
-  - uid: 3224
-    components:
-    - type: Transform
-      pos: 166.5,264.5
-      parent: 1
-  - uid: 3252
-    components:
-    - type: Transform
-      pos: 112.5,319.5
-      parent: 1
-  - uid: 3262
-    components:
-    - type: Transform
-      pos: 54.5,199.5
-      parent: 1
-  - uid: 3272
-    components:
-    - type: Transform
-      pos: 190.5,231.5
-      parent: 1
-  - uid: 3495
-    components:
-    - type: Transform
-      pos: 121.5,175.5
-      parent: 1
-  - uid: 3530
-    components:
-    - type: Transform
-      pos: 2.5,167.5
-      parent: 1
-  - uid: 4217
-    components:
-    - type: Transform
-      pos: 30.5,140.5
-      parent: 1
-  - uid: 4272
-    components:
-    - type: Transform
-      pos: 72.5,82.5
-      parent: 1
-  - uid: 4275
-    components:
-    - type: Transform
-      pos: 173.5,120.5
-      parent: 1
-  - uid: 4281
-    components:
-    - type: Transform
-      pos: -37.5,201.5
-      parent: 1
-  - uid: 22780
-    components:
-    - type: Transform
-      pos: 26.5,262.5
-      parent: 1
-  - uid: 22794
-    components:
-    - type: Transform
-      pos: 12.5,216.5
-      parent: 1
-  - uid: 22805
-    components:
-    - type: Transform
-      pos: 199.5,260.5
-      parent: 1
-  - uid: 22807
-    components:
-    - type: Transform
-      pos: 165.5,219.5
-      parent: 1
-  - uid: 22841
-    components:
-    - type: Transform
-      pos: 91.5,103.5
-      parent: 1
-  - uid: 42468
-    components:
-    - type: Transform
-      pos: 208.5,181.5
-      parent: 1
-  - uid: 54296
-    components:
-    - type: Transform
-      pos: 25.5,320.5
-      parent: 1
-  - uid: 55361
-    components:
-    - type: Transform
-      pos: 132.5,344.5
-      parent: 1
-  - uid: 56191
-    components:
-    - type: Transform
-      pos: 133.5,360.5
-      parent: 1
-- proto: MutantSpawnerBlindDog_1to2_50
-  entities:
-  - uid: 3208
-    components:
-    - type: Transform
-      pos: 101.5,206.5
-      parent: 1
-  - uid: 3223
-    components:
-    - type: Transform
-      pos: 25.5,166.5
-      parent: 1
-  - uid: 3239
-    components:
-    - type: Transform
-      pos: 173.5,251.5
-      parent: 1
-  - uid: 4245
-    components:
-    - type: Transform
-      pos: 79.5,116.5
-      parent: 1
-  - uid: 4246
-    components:
-    - type: Transform
-      pos: 83.5,147.5
-      parent: 1
-  - uid: 4271
-    components:
-    - type: Transform
-      pos: 84.5,369.5
-      parent: 1
-  - uid: 4282
-    components:
-    - type: Transform
-      pos: 168.5,329.5
-      parent: 1
-- proto: MutantSpawnerBlindDog_1to4_25
-  entities:
-  - uid: 3004
-    components:
-    - type: Transform
-      pos: 41.5,244.5
-      parent: 1
-  - uid: 3251
-    components:
-    - type: Transform
-      pos: 76.5,293.5
-      parent: 1
-  - uid: 3264
-    components:
-    - type: Transform
-      pos: 118.5,153.5
-      parent: 1
-  - uid: 3271
-    components:
-    - type: Transform
-      pos: 179.5,199.5
-      parent: 1
-  - uid: 3517
-    components:
-    - type: Transform
-      pos: 55.5,244.5
-      parent: 1
-  - uid: 3533
-    components:
-    - type: Transform
-      pos: 70.5,253.5
-      parent: 1
-  - uid: 4247
-    components:
-    - type: Transform
-      pos: 117.5,306.5
-      parent: 1
-  - uid: 4248
-    components:
-    - type: Transform
-      pos: 144.5,301.5
-      parent: 1
-- proto: MutantSpawnerBlindDog_1to4_50
-  entities:
-  - uid: 3180
-    components:
-    - type: Transform
-      pos: 183.5,152.5
-      parent: 1
-  - uid: 3504
-    components:
-    - type: Transform
-      pos: -37.5,167.5
-      parent: 1
-  - uid: 4249
-    components:
-    - type: Transform
-      pos: 25.5,219.5
-      parent: 1
-  - uid: 4250
-    components:
-    - type: Transform
-      pos: 118.5,360.5
-      parent: 1
-  - uid: 4251
-    components:
-    - type: Transform
-      pos: 193.5,213.5
-      parent: 1
-  - uid: 4269
-    components:
-    - type: Transform
-      pos: -38.5,3.5
-      parent: 1
-  - uid: 4273
-    components:
-    - type: Transform
-      pos: 134.5,116.5
-      parent: 1
-  - uid: 4274
-    components:
-    - type: Transform
-      pos: -51.5,50.5
-      parent: 1
-- proto: MutantSpawnerBoar_1to2_10
-  entities:
-  - uid: 2765
-    components:
-    - type: Transform
-      pos: -52.5,223.5
-      parent: 1
-  - uid: 3031
-    components:
-    - type: Transform
-      pos: 117.5,243.5
-      parent: 1
-  - uid: 3190
-    components:
-    - type: Transform
-      pos: 208.5,226.5
-      parent: 1
-  - uid: 3512
-    components:
-    - type: Transform
-      pos: -53.5,207.5
-      parent: 1
-  - uid: 3526
-    components:
-    - type: Transform
-      pos: 110.5,271.5
-      parent: 1
-  - uid: 3535
-    components:
-    - type: Transform
-      pos: -30.5,241.5
-      parent: 1
-  - uid: 13694
-    components:
-    - type: Transform
-      pos: -16.5,222.5
-      parent: 1
-  - uid: 13695
-    components:
-    - type: Transform
-      pos: -10.5,233.5
-      parent: 1
-  - uid: 47744
-    components:
-    - type: Transform
-      pos: 181.5,297.5
-      parent: 1
-  - uid: 47899
-    components:
-    - type: Transform
-      pos: 43.5,303.5
-      parent: 1
-  - uid: 48443
-    components:
-    - type: Transform
-      pos: 15.5,314.5
-      parent: 1
-  - uid: 48758
-    components:
-    - type: Transform
-      pos: 54.5,319.5
-      parent: 1
-  - uid: 56591
-    components:
-    - type: Transform
-      pos: 134.5,375.5
-      parent: 1
-  - uid: 56890
-    components:
-    - type: Transform
-      pos: 131.5,395.5
-      parent: 1
-  - uid: 56955
-    components:
-    - type: Transform
-      pos: 161.5,397.5
-      parent: 1
-  - uid: 57366
-    components:
-    - type: Transform
-      pos: 124.5,412.5
-      parent: 1
-- proto: MutantSpawnerBoar_1to2_25
-  entities:
-  - uid: 3058
-    components:
-    - type: Transform
-      pos: 134.5,275.5
-      parent: 1
-  - uid: 3179
-    components:
-    - type: Transform
-      pos: 44.5,269.5
-      parent: 1
-  - uid: 3182
-    components:
-    - type: Transform
-      pos: -30.5,42.5
-      parent: 1
-  - uid: 3211
-    components:
-    - type: Transform
-      pos: 189.5,251.5
-      parent: 1
-  - uid: 3221
-    components:
-    - type: Transform
-      pos: 60.5,104.5
-      parent: 1
-  - uid: 3236
-    components:
-    - type: Transform
-      pos: 180.5,187.5
-      parent: 1
-  - uid: 3254
-    components:
-    - type: Transform
-      pos: 44.5,33.5
-      parent: 1
-  - uid: 3261
-    components:
-    - type: Transform
-      pos: 25.5,50.5
-      parent: 1
-  - uid: 3316
-    components:
-    - type: Transform
-      pos: 170.5,275.5
-      parent: 1
-  - uid: 3494
-    components:
-    - type: Transform
-      pos: -27.5,74.5
-      parent: 1
-  - uid: 3500
-    components:
-    - type: Transform
-      pos: 70.5,175.5
-      parent: 1
-  - uid: 3514
-    components:
-    - type: Transform
-      pos: 162.5,197.5
-      parent: 1
-  - uid: 4252
-    components:
-    - type: Transform
-      pos: 138.5,433.5
-      parent: 1
-  - uid: 4253
-    components:
-    - type: Transform
-      pos: 156.5,419.5
-      parent: 1
-  - uid: 54948
-    components:
-    - type: Transform
-      pos: 140.5,336.5
-      parent: 1
-  - uid: 56228
-    components:
-    - type: Transform
-      pos: 145.5,362.5
-      parent: 1
-- proto: MutantSpawnerBoar_1to2_25
-  entities:
-  - uid: 3023
-    components:
-    - type: Transform
-      pos: 87.5,404.5
-      parent: 1
-  - uid: 3195
-    components:
-    - type: Transform
-      pos: 127.5,218.5
-      parent: 1
-  - uid: 3248
-    components:
-    - type: Transform
-      pos: 214.5,192.5
-      parent: 1
-  - uid: 56621
-    components:
-    - type: Transform
-      pos: 66.5,377.5
-      parent: 1
-- proto: MutantSpawnerBoar_1to2_50
-  entities:
-  - uid: 3181
-    components:
-    - type: Transform
-      pos: 15.5,238.5
-      parent: 1
-- proto: MutantSpawnerBoar_1to4_50
-  entities:
-  - uid: 3534
-    components:
-    - type: Transform
-      pos: -48.5,242.5
-      parent: 1
-- proto: MutantSpawnerPoltergeistElec_1_50
-  entities:
-  - uid: 3302
-    components:
-    - type: Transform
-      pos: 60.5,435.5
-      parent: 1
-- proto: MutantSpawnerPseudodog_1to2_50
-  entities:
-  - uid: 4267
-    components:
-    - type: Transform
-      pos: 202.5,200.5
-      parent: 1
-- proto: MutantSpawnerRodent_1to2_10
-  entities:
-  - uid: 2999
-    components:
-    - type: Transform
-      pos: 152.5,247.5
-      parent: 1
-  - uid: 4268
-    components:
-    - type: Transform
-      pos: 132.5,173.5
-      parent: 1
-  - uid: 22914
-    components:
-    - type: Transform
-      pos: 141.5,203.5
-      parent: 1
-  - uid: 22915
-    components:
-    - type: Transform
-      pos: 150.5,191.5
-      parent: 1
-  - uid: 22916
-    components:
-    - type: Transform
-      pos: 148.5,179.5
-      parent: 1
-  - uid: 22918
-    components:
-    - type: Transform
-      pos: 132.5,191.5
-      parent: 1
-  - uid: 22919
-    components:
-    - type: Transform
-      pos: 131.5,182.5
-      parent: 1
-  - uid: 22920
-    components:
-    - type: Transform
-      pos: 113.5,173.5
-      parent: 1
-  - uid: 28850
-    components:
-    - type: Transform
-      pos: 74.5,233.5
-      parent: 1
-  - uid: 28853
-    components:
-    - type: Transform
-      pos: 66.5,234.5
-      parent: 1
-  - uid: 28858
-    components:
-    - type: Transform
-      pos: 62.5,215.5
-      parent: 1
-  - uid: 28870
-    components:
-    - type: Transform
-      pos: 50.5,227.5
-      parent: 1
-- proto: MutantSpawnerRodent_1to2_50
-  entities:
-  - uid: 3255
-    components:
-    - type: Transform
-      pos: 62.5,430.5
-      parent: 1
-- proto: MutantSpawnerRodent_1to4_25
-  entities:
-  - uid: 3237
-    components:
-    - type: Transform
-      pos: 101.5,286.5
-      parent: 1
-  - uid: 3321
-    components:
-    - type: Transform
-      pos: 104.5,283.5
-      parent: 1
-  - uid: 3513
-    components:
-    - type: Transform
-      pos: 105.5,287.5
-      parent: 1
-  - uid: 4222
-    components:
-    - type: Transform
-      pos: -12.5,250.5
-      parent: 1
-  - uid: 4224
-    components:
-    - type: Transform
-      pos: -0.5,264.5
-      parent: 1
-  - uid: 4225
-    components:
-    - type: Transform
-      pos: 11.5,254.5
-      parent: 1
-  - uid: 4227
-    components:
-    - type: Transform
-      pos: -2.5,256.5
-      parent: 1
-  - uid: 4242
-    components:
-    - type: Transform
-      pos: 128.5,366.5
-      parent: 1
-  - uid: 4243
-    components:
-    - type: Transform
-      pos: 120.5,367.5
-      parent: 1
-  - uid: 4244
-    components:
-    - type: Transform
-      pos: 119.5,347.5
-      parent: 1
-  - uid: 22925
-    components:
-    - type: Transform
-      pos: 113.5,183.5
-      parent: 1
-  - uid: 22926
-    components:
-    - type: Transform
-      pos: 118.5,198.5
-      parent: 1
-  - uid: 22927
-    components:
-    - type: Transform
-      pos: 125.5,210.5
-      parent: 1
-- proto: MutantSpawnerRodent_1to4_50
-  entities:
-  - uid: 3187
-    components:
-    - type: Transform
-      pos: 157.5,255.5
-      parent: 1
-  - uid: 3240
-    components:
-    - type: Transform
-      pos: 139.5,256.5
-      parent: 1
-- proto: MutantSpawnerMatureBoar_1to2_10
-  entities:
-  - uid: 3059
-    components:
-    - type: Transform
-      pos: 78.5,78.5
-      parent: 1
-- proto: MutantSpawnerMatureBoar_1to2_10
-  entities:
-  - uid: 3060
-    components:
-    - type: Transform
-      pos: 81.5,313.5
-      parent: 1
-  - uid: 3511
-    components:
-    - type: Transform
-      pos: 18.5,347.5
-      parent: 1
-- proto: MutantSpawnerMatureBoar_1to2_25
-  entities:
-  - uid: 2990
-    components:
-    - type: Transform
-      pos: 23.5,202.5
-      parent: 1
-  - uid: 3213
-    components:
-    - type: Transform
-      pos: 86.5,248.5
-      parent: 1
-  - uid: 3215
-    components:
-    - type: Transform
-      pos: 125.5,234.5
-      parent: 1
-  - uid: 3225
-    components:
-    - type: Transform
-      pos: 138.5,247.5
-      parent: 1
-- proto: MutantSpawnerMatureBoar_1to2_50
-  entities:
-  - uid: 3263
-    components:
-    - type: Transform
-      pos: 108.5,408.5
-      parent: 1
-- proto: MutantSpawnerMatureBoar_1to4_25
-  entities:
-  - uid: 4258
-    components:
-    - type: Transform
-      pos: -26.5,257.5
-      parent: 1
-  - uid: 7149
-    components:
-    - type: Transform
-      pos: -46.5,257.5
-      parent: 1
-  - uid: 13693
-    components:
-    - type: Transform
-      pos: -35.5,260.5
-      parent: 1
-- proto: MutantSpawnerSnork_1to2_10
-  entities:
-  - uid: 4270
-    components:
-    - type: Transform
-      pos: 118.5,211.5
-      parent: 1
-- proto: MutantSpawnerSnork_1to4_50
-  entities:
-  - uid: 3731
-    components:
-    - type: Transform
-      pos: 147.5,244.5
       parent: 1
 - proto: STTriggerTraderForesterCordon
   entities:
