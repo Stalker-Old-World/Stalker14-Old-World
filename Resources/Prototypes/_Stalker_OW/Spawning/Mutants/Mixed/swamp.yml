@@ -53,11 +53,11 @@
     - type: SpawnOnApproach
       prototypes:
         - MobMutantSeasonedBoar
-        - MobMutantLeshy
+        - MobMutantLeshiy
         - MobMutantPseudodog
       restricted:
         - MobMutantSeasonedBoar
-        - MobMutantLeshy
+        - MobMutantLeshiy
         - MobMutantPseudodog
 
 - type: entity
