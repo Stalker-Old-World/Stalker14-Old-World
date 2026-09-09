@@ -262,7 +262,7 @@ entities:
     - type: BecomesStation
       id: Stalker
     - type: STAnomalyGeneratorTarget
-      optionsId: STKordonGenerationOptions
+      optionsId: STCordonGenerationOptions
     - type: Physics
       bodyStatus: InAir
       angularDamping: 0.05

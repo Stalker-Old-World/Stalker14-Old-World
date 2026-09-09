@@ -28918,7 +28918,7 @@ entities:
       maxTier: 2
     - type: MapEmissionLightningTarget
     - type: STAnomalyGeneratorTarget
-      optionsId: STTemnajDolinaGenerationOptions
+      optionsId: STDarkValleyGenerationOptions
 - proto: AcousticGuitarInstrument
   entities:
   - uid: 16948

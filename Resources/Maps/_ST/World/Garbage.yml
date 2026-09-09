@@ -74346,7 +74346,7 @@ entities:
     - type: RadiationGridResistance
     - type: NavMap
     - type: STAnomalyGeneratorTarget
-      optionsId: STSvalkaGenerationOptions
+      optionsId: STGarbageGenerationOptions
     - type: LightCycle
       minLightLevel: 0.35
       initialOffset: False

@@ -33273,6 +33273,8 @@ entities:
           Nitrogen: 82.10312
     - type: RadiationGridResistance
     - type: NavMap
+    - type: STAnomalyGeneratorTarget
+      optionsId: STAgropromGenerationOptions
     - type: ZoneArtifactSpawnerMapTier
       maxTier: 2
 - proto: Agro-Svalka2
