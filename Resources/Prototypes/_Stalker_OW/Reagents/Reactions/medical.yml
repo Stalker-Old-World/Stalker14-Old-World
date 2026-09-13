@@ -1,5 +1,5 @@
 ﻿- type: reaction
-  id: Brute Reaction 1
+  id: BruteReaction 1
   reactants:
     StalkerOilGrass3:
       amount: 1
@@ -11,7 +11,7 @@
     STOWOilsBrute1: 3
 
 - type: reaction
-  id: Caustic Reaction 1
+  id: CausticReaction 1
   reactants:
     StalkerOilKlukva:
       amount: 2
