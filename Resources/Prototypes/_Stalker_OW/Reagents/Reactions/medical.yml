@@ -5,8 +5,10 @@
       amount: 1
     StalkerOilGrass2:
       amount: 1
+    StalkerOilKrijovnik:
+      amount: 1
   products:
-    STOWOilsBrute1: 2
+    STOWOilsBrute1: 3
 
 - type: reaction
   id: Caustic Reaction 1
@@ -17,23 +19,3 @@
       amount: 1
   products:
     STOWOilsCaustic1: 3
-    
-- type: reaction
-  id: Brute Reaction 2
-  reactants:
-    StalkerOilKrijovnik:
-      amount: 1
-    StalkerOilGrass2:
-      amount: 1
-  products:
-    STOWOilsBrute1: 2
-
-- type: reaction
-  id: Energizing Reaction 1
-  reactants:
-    StalkerOilGrass1:
-      amount: 1
-    StalkerOilMoroshka:
-      amount: 1
-  products:
-    STOWOilsEnergizing1: 2
