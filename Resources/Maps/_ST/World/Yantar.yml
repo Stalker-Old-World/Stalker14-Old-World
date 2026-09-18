@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.0.0
   forkId: ""
   forkVersion: ""
-  time: 09/04/2026 05:05:19
-  entityCount: 6491
+  time: 09/18/2026 10:08:41
+  entityCount: 6492
 maps:
 - 1
 grids:
@@ -44417,25 +44417,13 @@ entities:
     - type: Transform
       pos: 18.5,11.5
       parent: 1
-  - uid: 6109
-    components:
-    - type: Transform
-      pos: -40.5,47.5
-      parent: 1
-- proto: STCacheT3Spawner25
-  entities:
-  - uid: 6063
-    components:
-    - type: Transform
-      pos: -32.5,64.5
-      parent: 1
-  - uid: 6108
-    components:
-    - type: Transform
-      pos: -39.5,50.5
-      parent: 1
 - proto: STCacheT3Spawner5
   entities:
+  - uid: 5306
+    components:
+    - type: Transform
+      pos: -40.5,50.5
+      parent: 1
   - uid: 6057
     components:
     - type: Transform
@@ -47093,6 +47081,23 @@ entities:
     - type: Transform
       rot: -1.3089969389957472 rad
       pos: 8.5,27.5
+      parent: 1
+- proto: STOWCacheT3Spawner100
+  entities:
+  - uid: 5303
+    components:
+    - type: Transform
+      pos: -40.5,47.5
+      parent: 1
+  - uid: 5304
+    components:
+    - type: Transform
+      pos: -32.5,64.5
+      parent: 1
+  - uid: 5305
+    components:
+    - type: Transform
+      pos: -31.5,40.5
       parent: 1
 - proto: STPottedPlant21
   entities:
